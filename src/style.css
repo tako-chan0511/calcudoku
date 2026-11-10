@@ -65,3 +65,12 @@
 .applied-operators{font-size:11px;color:#64748b;text-align:center;margin:10px 0 0}
 
 .settings .unsupported-setting{color:#92400e;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:12px;margin-top:14px;overflow-wrap:anywhere}
+
+.clear-popup-backdrop{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:20px;background:#17233c99;overflow-y:auto;overscroll-behavior:contain}
+.clear-popup{width:min(100%,440px);max-height:calc(100dvh - 40px);overflow-y:auto;padding:30px 24px;border:1px solid #e0e7ff;border-radius:22px;background:#fff;text-align:center;box-shadow:0 24px 80px #17233c40}
+.clear-popup-icon{display:block;width:64px;height:64px;margin:0 auto}.clear-popup .clear-popup-label{color:#6366f1;font-size:12px;font-weight:800;letter-spacing:.18em;margin:14px 0 4px}
+.clear-popup h2{font-size:30px;color:#4338ca;margin:0 0 12px}.clear-popup p{font-size:14px;color:#64748b;margin:10px 0}
+.clear-popup .clear-popup-time{margin:20px 0;font-size:13px}.clear-popup-time strong{display:block;font-size:32px;color:#26334a;font-variant-numeric:tabular-nums}
+.clear-popup .clear-popup-record{color:#047857}.clear-popup .clear-popup-answer{color:#9a3412;font-size:12px}
+.clear-popup-actions{display:flex;flex-direction:column;gap:10px;margin-top:24px}.clear-popup-actions button{min-height:48px;width:100%;justify-content:center;touch-action:manipulation}
+@media(max-width:400px){.clear-popup{padding:24px 18px}.clear-popup h2{font-size:27px}}

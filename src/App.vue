@@ -3,6 +3,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import PuzzleBoard from './components/PuzzleBoard.vue'
 import NumberPad from './components/NumberPad.vue'
 import GameTools from './components/GameTools.vue'
+import ClearPopup from './components/ClearPopup.vue'
 import SettingsPanel from './components/SettingsPanel.vue'
 import { usePuzzleSettings } from './composables/usePuzzleSettings.ts'
 import { useGamePersistence } from './composables/useGamePersistence.ts'
@@ -28,6 +29,10 @@ watch(puzzle, value => { copyMessage.value = ''; if (value) adoptInitial(value) 
 const game = usePuzzleGame(puzzle, computed(() => state.value === 'generating'))
 const { values, selectedCell, status, check, locked, canInput, formattedTime, selectCell, moveSelection, inputValue, retry, canUndo, canRedo, undo, redo, showCandidates, revealAnswer, hintOutcome, answerUsed } = game
 const { bestMs, restorationMessage, storageMessage, recordMessage, restoreSaved } = useGamePersistence(puzzle, game, restorePuzzle, undefined, { verifyLarge: verifyPuzzle, onFailure: startInitial })
+const clearPopupVisible = ref(false)
+const retryButton = ref<HTMLButtonElement | null>(null)
+watch(game.completion, event => { clearPopupVisible.value = event !== null })
+function retryFromPopup() { if (retry()) clearPopupVisible.value = false }
 const selectedDescription = computed(() => {
   if (status.value === 'cleared') return 'クリア済みのため、数字は編集できません。'
   if (selectedCell.value === null) return '入力するマスを選択してください。'
@@ -46,7 +51,7 @@ const warnings = computed(() => {
 onMounted(() => { if (!restoreSaved()) startInitial() })
 </script>
 <template>
-  <main class="app">
+  <main class="app" :inert="clearPopupVisible ? true : undefined">
     <header class="header"><span class="brand" aria-hidden="true">＋</span><div><p class="eyebrow">CALCUDOKU</p><h1>計算パズル</h1></div></header>
     <p class="intro">行と列に1〜{{ puzzle?.size ?? 5 }}をひとつずつ。ケージの計算条件を手がかりに。</p>
     <SettingsPanel v-model:size="draft.size" v-model:difficulty="draft.difficulty" v-model:operators="draft.operators" v-model:seed="draft.seed" v-model:version="draft.generatorVersion" :busy="state === 'generating'" :errors="settingsErrors" @edit="edited = true" @generate="startNew" @cancel="cancel" @random="randomize()" />
@@ -69,13 +74,14 @@ onMounted(() => { if (!restoreSaved()) startInitial() })
         <GameTools :can-undo="canUndo" :can-redo="canRedo" :can-hint="canInput" :outcome="hintOutcome" @undo="undo" @redo="redo" @candidates="showCandidates" @answer="revealAnswer" />
         <div v-if="warnings.length" id="game-errors" class="game-errors" role="alert"><strong>! 入力を確認してください</strong><ul><li v-for="message in warnings" :key="message">{{ message }}</li></ul></div>
         <div v-if="status === 'cleared'" class="clear-message" role="status"><strong>✓ クリア！ おめでとうございます</strong><p>すべての行・列とケージの条件を満たしました。クリア時間：{{ formattedTime }}</p><p v-if="recordMessage" class="record-message">{{ recordMessage }}</p></div>
-        <button class="retry-button" :class="status === 'cleared' ? 'primary' : 'secondary'" :disabled="state === 'generating'" @click="retry">同じ問題で再挑戦 <span aria-hidden="true">↻</span></button>
+        <button ref="retryButton" class="retry-button" :class="status === 'cleared' ? 'primary' : 'secondary'" :disabled="state === 'generating'" @click="retry">同じ問題で再挑戦 <span aria-hidden="true">↻</span></button>
         <div class="problem-meta"><span>シード：{{ puzzle.seed }}</span><button class="secondary copy-seed" aria-label="現在のシードをコピー" @click="copySeed">コピー</button><span>{{ puzzle.generatorVersion }}</span><span>固定値：{{ puzzle.cages.filter(c => c.op === '=').length }} マス</span></div>
         <p v-if="copyMessage" class="copy-message" role="status">{{ copyMessage }}</p>
       </template>
       <div v-else class="board-placeholder">{{ state === 'failed' ? '未確認の問題は表示しません。新しい問題を生成してください。' : state === 'generating' ? '問題を準備しています…' : '新しい問題を生成してください。' }}</div>
     </section>
     <section class="panel rules"><h2>ルール・操作方法</h2><p>各行・各列に1〜{{ puzzle?.size ?? 5 }}を重複なく配置します。太い線で囲まれたケージの数字で、左上の計算条件を満たします。</p><p>引き算・割り算は2マスで、大きい数字から小さい数字を引く・割る条件です。演算子がないケージは固定値で、編集できません。</p><p>「!」は数字の重複や計算条件の矛盾を示します。未完成ケージは、成立する組合せが残っていれば警告しません。タイマーは最初の数字入力から始まります。Undo・Redoでは時間と答えの使用履歴は戻りません。</p><p>途中状態はこのブラウザへ自動保存します。再読み込みで続きから再開でき、閉じている間の時間は加算しません。再挑戦と新しい問題では履歴をリセットします。</p></section>
+    <ClearPopup v-if="clearPopupVisible" :clear-time="formattedTime" :best-time="bestMs === null ? null : formatTime(bestMs)" :record-message="recordMessage" :answer-used="answerUsed" :can-retry="state !== 'generating'" :return-focus="retryButton" @close="clearPopupVisible = false" @retry="retryFromPopup" />
     <footer>CALCUDOKU · 計算を手がかりに、ひとマスずつ。</footer>
   </main>
 </template>
