@@ -20,7 +20,7 @@ npm run build
 git diff --check
 ```
 
-GitHub ActionsのCIでもNode 22で上記検証を実行する。`build`も型チェックを含む。
+GitHub ActionsのCIでもNode 22で上記検証を実行する。npm 10/11で同じロックを使用できるよう、globのoverrideはバージョン条件を付けず、既存の14系修正版へ統一している。条件付きoverrideではnpm 10の`npm ci`がglob 13系の不足と判定したため、採用バージョンを変えずに指定形式だけを修正した。`build`も型チェックを含む。
 `node_modules`、`dist`、`.env*`、`.vercel`、ログ、キャッシュはコミットしない。個別の認証情報をソースやCI変数へ追加する必要はない。
 
 ## 本番確認
