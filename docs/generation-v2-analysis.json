@@ -1,0 +1,125 @@
+{
+  "note": "Counters from an instrumented temporary copy of frozen v2. Every result compared byte-for-byte with normal v2 output; shipped v2 unchanged.",
+  "results": [
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 2,
+      "counters": {
+        "fixedRejected": 3006,
+        "multiple": 2100,
+        "unique": 1856,
+        "gradeRejected": 1854,
+        "solverBudget": 0,
+        "easy": 313,
+        "normal": 1541,
+        "hard": 2
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 44,
+      "counters": {
+        "fixedRejected": 1815,
+        "multiple": 1042,
+        "unique": 504,
+        "gradeRejected": 460,
+        "solverBudget": 0,
+        "easy": 0,
+        "normal": 460,
+        "hard": 44
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "successes": 1,
+      "counters": {
+        "fixedRejected": 0,
+        "multiple": 26,
+        "unique": 26,
+        "gradeRejected": 25,
+        "solverBudget": 60,
+        "easy": 0,
+        "normal": 1,
+        "hard": 25
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "counters": {
+        "fixedRejected": 200,
+        "multiple": 0,
+        "unique": 0,
+        "gradeRejected": 0,
+        "solverBudget": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "counters": {
+        "fixedRejected": 200,
+        "multiple": 0,
+        "unique": 0,
+        "gradeRejected": 0,
+        "solverBudget": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "counters": {
+        "fixedRejected": 500,
+        "multiple": 0,
+        "unique": 0,
+        "gradeRejected": 0,
+        "solverBudget": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 0
+      }
+    }
+  ]
+}

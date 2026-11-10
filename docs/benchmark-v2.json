@@ -1,0 +1,1619 @@
+{
+  "node": "v22.23.4",
+  "generatorVersion": "calcudoku-v2",
+  "seedRange": "0..49",
+  "description": "Generation wall time including failures; re-verification after each generation is excluded from timing.",
+  "results": [
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.47,
+      "p95Ms": 1.31,
+      "maxMs": 7.235,
+      "successMedianMs": 0.47,
+      "maxWork": 1063
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.471,
+      "p95Ms": 2.509,
+      "maxMs": 3.815,
+      "successMedianMs": 0.471,
+      "maxWork": 6128
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 2,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 12.335
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 11.343
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 12.008
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 15.115
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 11.215
+        },
+        {
+          "seed": 5,
+          "reason": "difficulty-unmet",
+          "ms": 12.887
+        },
+        {
+          "seed": 6,
+          "reason": "difficulty-unmet",
+          "ms": 11.008
+        },
+        {
+          "seed": 7,
+          "reason": "difficulty-unmet",
+          "ms": 9.35
+        },
+        {
+          "seed": 8,
+          "reason": "difficulty-unmet",
+          "ms": 9.867
+        },
+        {
+          "seed": 9,
+          "reason": "difficulty-unmet",
+          "ms": 8.44
+        },
+        {
+          "seed": 10,
+          "reason": "difficulty-unmet",
+          "ms": 8.438
+        },
+        {
+          "seed": 11,
+          "reason": "difficulty-unmet",
+          "ms": 7.593
+        },
+        {
+          "seed": 12,
+          "reason": "difficulty-unmet",
+          "ms": 9.56
+        },
+        {
+          "seed": 13,
+          "reason": "difficulty-unmet",
+          "ms": 7.268
+        },
+        {
+          "seed": 14,
+          "reason": "difficulty-unmet",
+          "ms": 8.184
+        },
+        {
+          "seed": 15,
+          "reason": "difficulty-unmet",
+          "ms": 8.026
+        },
+        {
+          "seed": 16,
+          "reason": "difficulty-unmet",
+          "ms": 10.508
+        },
+        {
+          "seed": 18,
+          "reason": "difficulty-unmet",
+          "ms": 18.697
+        },
+        {
+          "seed": 19,
+          "reason": "difficulty-unmet",
+          "ms": 16.52
+        },
+        {
+          "seed": 20,
+          "reason": "difficulty-unmet",
+          "ms": 10.779
+        },
+        {
+          "seed": 21,
+          "reason": "difficulty-unmet",
+          "ms": 9.484
+        },
+        {
+          "seed": 22,
+          "reason": "difficulty-unmet",
+          "ms": 10.63
+        },
+        {
+          "seed": 23,
+          "reason": "difficulty-unmet",
+          "ms": 11.123
+        },
+        {
+          "seed": 24,
+          "reason": "difficulty-unmet",
+          "ms": 10.859
+        },
+        {
+          "seed": 25,
+          "reason": "difficulty-unmet",
+          "ms": 13.837
+        },
+        {
+          "seed": 26,
+          "reason": "difficulty-unmet",
+          "ms": 9.299
+        },
+        {
+          "seed": 27,
+          "reason": "difficulty-unmet",
+          "ms": 7.615
+        },
+        {
+          "seed": 28,
+          "reason": "difficulty-unmet",
+          "ms": 18.276
+        },
+        {
+          "seed": 29,
+          "reason": "difficulty-unmet",
+          "ms": 17.135
+        },
+        {
+          "seed": 30,
+          "reason": "difficulty-unmet",
+          "ms": 7.119
+        },
+        {
+          "seed": 31,
+          "reason": "difficulty-unmet",
+          "ms": 9.486
+        },
+        {
+          "seed": 32,
+          "reason": "difficulty-unmet",
+          "ms": 8.744
+        },
+        {
+          "seed": 33,
+          "reason": "difficulty-unmet",
+          "ms": 8.22
+        },
+        {
+          "seed": 34,
+          "reason": "difficulty-unmet",
+          "ms": 7.315
+        },
+        {
+          "seed": 35,
+          "reason": "difficulty-unmet",
+          "ms": 9.396
+        },
+        {
+          "seed": 36,
+          "reason": "difficulty-unmet",
+          "ms": 7.406
+        },
+        {
+          "seed": 37,
+          "reason": "difficulty-unmet",
+          "ms": 9.13
+        },
+        {
+          "seed": 39,
+          "reason": "difficulty-unmet",
+          "ms": 7.097
+        },
+        {
+          "seed": 40,
+          "reason": "difficulty-unmet",
+          "ms": 9.239
+        },
+        {
+          "seed": 41,
+          "reason": "difficulty-unmet",
+          "ms": 7.155
+        },
+        {
+          "seed": 42,
+          "reason": "difficulty-unmet",
+          "ms": 7.947
+        },
+        {
+          "seed": 43,
+          "reason": "difficulty-unmet",
+          "ms": 6.702
+        },
+        {
+          "seed": 44,
+          "reason": "difficulty-unmet",
+          "ms": 7.328
+        },
+        {
+          "seed": 45,
+          "reason": "difficulty-unmet",
+          "ms": 7.23
+        },
+        {
+          "seed": 46,
+          "reason": "difficulty-unmet",
+          "ms": 6.706
+        },
+        {
+          "seed": 47,
+          "reason": "difficulty-unmet",
+          "ms": 7.361
+        },
+        {
+          "seed": 48,
+          "reason": "difficulty-unmet",
+          "ms": 6.755
+        },
+        {
+          "seed": 49,
+          "reason": "difficulty-unmet",
+          "ms": 7.841
+        }
+      ],
+      "medianMs": 9.13,
+      "p95Ms": 17.135,
+      "maxMs": 18.697,
+      "successMedianMs": 0.709,
+      "maxWork": 40423
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.254,
+      "p95Ms": 0.853,
+      "maxMs": 1.531,
+      "successMedianMs": 0.254,
+      "maxWork": 6054
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.634,
+      "p95Ms": 2.583,
+      "maxMs": 3.893,
+      "successMedianMs": 0.634,
+      "maxWork": 17948
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 44,
+      "failures": [
+        {
+          "seed": 10,
+          "reason": "difficulty-unmet",
+          "ms": 14.475
+        },
+        {
+          "seed": 26,
+          "reason": "difficulty-unmet",
+          "ms": 12.305
+        },
+        {
+          "seed": 28,
+          "reason": "difficulty-unmet",
+          "ms": 13.883
+        },
+        {
+          "seed": 30,
+          "reason": "difficulty-unmet",
+          "ms": 14.936
+        },
+        {
+          "seed": 36,
+          "reason": "difficulty-unmet",
+          "ms": 15.741
+        },
+        {
+          "seed": 47,
+          "reason": "difficulty-unmet",
+          "ms": 12.958
+        }
+      ],
+      "medianMs": 6.681,
+      "p95Ms": 14.475,
+      "maxMs": 15.741,
+      "successMedianMs": 5.278,
+      "maxWork": 101671
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.419,
+      "p95Ms": 1.136,
+      "maxMs": 1.37,
+      "successMedianMs": 0.419,
+      "maxWork": 11738
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 0.52,
+      "p95Ms": 2.073,
+      "maxMs": 2.713,
+      "successMedianMs": 0.52,
+      "maxWork": 27994
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 4.742,
+      "p95Ms": 15.615,
+      "maxMs": 23.745,
+      "successMedianMs": 4.742,
+      "maxWork": 169338
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 1.24,
+      "p95Ms": 3.443,
+      "maxMs": 3.829,
+      "successMedianMs": 1.24,
+      "maxWork": 17689
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 2.165,
+      "p95Ms": 6.861,
+      "maxMs": 10.429,
+      "successMedianMs": 2.165,
+      "maxWork": 113863
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 9.935,
+      "p95Ms": 22.135,
+      "maxMs": 30.712,
+      "successMedianMs": 9.935,
+      "maxWork": 421509
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 1.195,
+      "p95Ms": 4.441,
+      "maxMs": 5.787,
+      "successMedianMs": 1.195,
+      "maxWork": 49345
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 2.317,
+      "p95Ms": 9.299,
+      "maxMs": 44.13,
+      "successMedianMs": 2.317,
+      "maxWork": 657953
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 3.522,
+      "p95Ms": 22.182,
+      "maxMs": 39.446,
+      "successMedianMs": 3.522,
+      "maxWork": 645948
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 1.94,
+      "p95Ms": 5.933,
+      "maxMs": 6.9,
+      "successMedianMs": 1.94,
+      "maxWork": 61031
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 8.055,
+      "p95Ms": 25.106,
+      "maxMs": 62.718,
+      "successMedianMs": 8.055,
+      "maxWork": 1080995
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 14.509,
+      "p95Ms": 58.557,
+      "maxMs": 112.055,
+      "successMedianMs": 14.509,
+      "maxWork": 1513534
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 3.96,
+      "p95Ms": 10.759,
+      "maxMs": 14.394,
+      "successMedianMs": 3.96,
+      "maxWork": 103536
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 42.308,
+      "p95Ms": 185.038,
+      "maxMs": 346.951,
+      "successMedianMs": 42.308,
+      "maxWork": 5492457
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "successes": 50,
+      "failures": [],
+      "medianMs": 18.92,
+      "p95Ms": 82.625,
+      "maxMs": 157.244,
+      "successMedianMs": 18.92,
+      "maxWork": 2904661
+    }
+  ],
+  "operatorResults": [
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.986,
+      "p95Ms": 7.433,
+      "maxMs": 7.433,
+      "successMedianMs": 2.986,
+      "maxWork": 71023
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "successes": 1,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1187.865
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1197.667
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1193.827
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1171.094
+        }
+      ],
+      "medianMs": 1187.865,
+      "p95Ms": 1197.667,
+      "maxMs": 1197.667,
+      "successMedianMs": 413.421,
+      "maxWork": 24000000
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 491.807,
+      "p95Ms": 710.364,
+      "maxMs": 710.364,
+      "successMedianMs": 491.807,
+      "maxWork": 14616636
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1379.425
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1303.102
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1055.479
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1319.221
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1104.71
+        }
+      ],
+      "medianMs": 1303.102,
+      "p95Ms": 1379.425,
+      "maxMs": 1379.425,
+      "successMedianMs": null,
+      "maxWork": 20604910
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "successes": 4,
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1013.768
+        }
+      ],
+      "medianMs": 199.136,
+      "p95Ms": 1013.768,
+      "maxMs": 1013.768,
+      "successMedianMs": 129.951,
+      "maxWork": 15748788
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 14.666,
+      "p95Ms": 105.468,
+      "maxMs": 105.468,
+      "successMedianMs": 14.666,
+      "maxWork": 1533245
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "successes": 4,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 162.907
+        }
+      ],
+      "medianMs": 24.432,
+      "p95Ms": 162.907,
+      "maxMs": 162.907,
+      "successMedianMs": 21.322,
+      "maxWork": 1980355
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "successes": 1,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1140.254
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1175.651
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1264.22
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1213.58
+        }
+      ],
+      "medianMs": 1175.651,
+      "p95Ms": 1264.22,
+      "maxMs": 1264.22,
+      "successMedianMs": 449.062,
+      "maxWork": 24000000
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 528.06,
+      "p95Ms": 827.666,
+      "maxMs": 827.666,
+      "successMedianMs": 528.06,
+      "maxWork": 16879334
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 1.35,
+      "p95Ms": 1.758,
+      "maxMs": 1.758,
+      "successMedianMs": 1.35,
+      "maxWork": 9635
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 3.007,
+      "p95Ms": 5.776,
+      "maxMs": 5.776,
+      "successMedianMs": 3.007,
+      "maxWork": 47061
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "successes": 3,
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 333.658
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 325.322
+        }
+      ],
+      "medianMs": 215.378,
+      "p95Ms": 333.658,
+      "maxMs": 333.658,
+      "successMedianMs": 44.413,
+      "maxWork": 3427026
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 1.514,
+      "p95Ms": 6.143,
+      "maxMs": 6.143,
+      "successMedianMs": 1.514,
+      "maxWork": 47592
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 30.183,
+      "p95Ms": 90.532,
+      "maxMs": 90.532,
+      "successMedianMs": 30.183,
+      "maxWork": 1449428
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 30.884,
+      "p95Ms": 56.037,
+      "maxMs": 56.037,
+      "successMedianMs": 30.884,
+      "maxWork": 706419
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.249,
+      "p95Ms": 10.452,
+      "maxMs": 10.452,
+      "successMedianMs": 2.249,
+      "maxWork": 100285
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.484,
+      "p95Ms": 5.408,
+      "maxMs": 5.408,
+      "successMedianMs": 2.484,
+      "maxWork": 49302
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 23.93,
+      "p95Ms": 49.883,
+      "maxMs": 49.883,
+      "successMedianMs": 23.93,
+      "maxWork": 527595
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 5.236,
+      "p95Ms": 11.11,
+      "maxMs": 11.11,
+      "successMedianMs": 5.236,
+      "maxWork": 103158
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 73.105,
+      "p95Ms": 100.554,
+      "maxMs": 100.554,
+      "successMedianMs": 73.105,
+      "maxWork": 1423820
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 12.439,
+      "p95Ms": 65.533,
+      "maxMs": 65.533,
+      "successMedianMs": 12.439,
+      "maxWork": 1135969
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 8.768
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 8.415
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 8.21
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 8.987
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 7.904
+        }
+      ],
+      "medianMs": 8.415,
+      "p95Ms": 8.987,
+      "maxMs": 8.987,
+      "successMedianMs": null,
+      "maxWork": 80
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 8.825
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 8.383
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 8.289
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 8.26
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 8.375
+        }
+      ],
+      "medianMs": 8.375,
+      "p95Ms": 8.825,
+      "maxMs": 8.825,
+      "successMedianMs": null,
+      "maxWork": 80
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 21.792
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 21.895
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 26.499
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 25.131
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 23.343
+        }
+      ],
+      "medianMs": 23.343,
+      "p95Ms": 26.499,
+      "maxMs": 26.499,
+      "successMedianMs": null,
+      "maxWork": 200
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 3.003,
+      "p95Ms": 7.278,
+      "maxMs": 7.278,
+      "successMedianMs": 3.003,
+      "maxWork": 68475
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 1,
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1168.686
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1225.356
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1129.163
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1190.102
+        }
+      ],
+      "medianMs": 1168.686,
+      "p95Ms": 1225.356,
+      "maxMs": 1225.356,
+      "successMedianMs": 809.229,
+      "maxWork": 24000000
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 241.715,
+      "p95Ms": 356.281,
+      "maxMs": 356.281,
+      "successMedianMs": 241.715,
+      "maxWork": 7419629
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 3,
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 482.543
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 397.862
+        }
+      ],
+      "medianMs": 110.03,
+      "p95Ms": 482.543,
+      "maxMs": 482.543,
+      "successMedianMs": 57.802,
+      "maxWork": 6759664
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 36.832,
+      "p95Ms": 103.98,
+      "maxMs": 103.98,
+      "successMedianMs": 36.832,
+      "maxWork": 1490428
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 7.348,
+      "p95Ms": 15.697,
+      "maxMs": 15.697,
+      "successMedianMs": 7.348,
+      "maxWork": 229880
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 16.693,
+      "p95Ms": 99.06,
+      "maxMs": 99.06,
+      "successMedianMs": 16.693,
+      "maxWork": 1219817
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 0,
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1368.024
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1395.869
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1300.846
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1371.078
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1394.022
+        }
+      ],
+      "medianMs": 1371.078,
+      "p95Ms": 1395.869,
+      "maxMs": 1395.869,
+      "successMedianMs": null,
+      "maxWork": 24000000
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 465.279,
+      "p95Ms": 979.292,
+      "maxMs": 979.292,
+      "successMedianMs": 465.279,
+      "maxWork": 18404265
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 1.134,
+      "p95Ms": 2.15,
+      "maxMs": 2.15,
+      "successMedianMs": 1.134,
+      "maxWork": 10850
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.442,
+      "p95Ms": 4.756,
+      "maxMs": 4.756,
+      "successMedianMs": 2.442,
+      "maxWork": 47534
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 4,
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 377.301
+        }
+      ],
+      "medianMs": 77.358,
+      "p95Ms": 377.301,
+      "maxMs": 377.301,
+      "successMedianMs": 45.404,
+      "maxWork": 3520589
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 1.561,
+      "p95Ms": 6.818,
+      "maxMs": 6.818,
+      "successMedianMs": 1.561,
+      "maxWork": 47208
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 40.629,
+      "p95Ms": 112.048,
+      "maxMs": 112.048,
+      "successMedianMs": 40.629,
+      "maxWork": 1919361
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 35.263,
+      "p95Ms": 63.184,
+      "maxMs": 63.184,
+      "successMedianMs": 35.263,
+      "maxWork": 1004793
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.923,
+      "p95Ms": 7.04,
+      "maxMs": 7.04,
+      "successMedianMs": 2.923,
+      "maxWork": 63952
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.43,
+      "p95Ms": 4.998,
+      "maxMs": 4.998,
+      "successMedianMs": 2.43,
+      "maxWork": 49348
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 27.409,
+      "p95Ms": 48.916,
+      "maxMs": 48.916,
+      "successMedianMs": 27.409,
+      "maxWork": 534274
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 2.606,
+      "p95Ms": 12.041,
+      "maxMs": 12.041,
+      "successMedianMs": 2.606,
+      "maxWork": 103536
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 80.678,
+      "p95Ms": 116.476,
+      "maxMs": 116.476,
+      "successMedianMs": 80.678,
+      "maxWork": 1707906
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "successes": 5,
+      "failures": [],
+      "medianMs": 12.08,
+      "p95Ms": 27.217,
+      "maxMs": 27.217,
+      "successMedianMs": 12.08,
+      "maxWork": 360709
+    }
+  ]
+}

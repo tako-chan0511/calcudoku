@@ -1,0 +1,8602 @@
+{
+  "node": "v22.23.4",
+  "fullSeedRange": "0..49",
+  "restrictedSeedRange": "0..4",
+  "timing": "Single process; generation includes uniqueness/grade; follow-up re-verification and Worker startup excluded; failed trials included.",
+  "results": [
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.531,
+      "p95Ms": 1.192,
+      "maxMs": 1.592,
+      "successMedianMs": 0.531,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 1063,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.452,
+      "p95Ms": 1.387,
+      "maxMs": 1.674,
+      "successMedianMs": 0.452,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 1136,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 20,
+        "solverBudget": 0,
+        "gradeRejected": 3,
+        "easy": 50,
+        "normal": 3,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.851,
+      "p95Ms": 4.521,
+      "maxMs": 5.434,
+      "successMedianMs": 0.851,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 8232,
+      "diagnostics": {
+        "fixedRejected": 147,
+        "multiple": 104,
+        "solverBudget": 0,
+        "gradeRejected": 64,
+        "easy": 34,
+        "normal": 80,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.368,
+      "p95Ms": 1.912,
+      "maxMs": 1.996,
+      "successMedianMs": 0.368,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 6128,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 2,
+      "failureReasons": {
+        "difficulty-unmet": 48
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 14.507
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 8.613
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 9.037
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 9.375
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 8.097
+        },
+        {
+          "seed": 5,
+          "reason": "difficulty-unmet",
+          "ms": 7.449
+        },
+        {
+          "seed": 6,
+          "reason": "difficulty-unmet",
+          "ms": 10.706
+        },
+        {
+          "seed": 7,
+          "reason": "difficulty-unmet",
+          "ms": 10.638
+        },
+        {
+          "seed": 8,
+          "reason": "difficulty-unmet",
+          "ms": 8.213
+        },
+        {
+          "seed": 9,
+          "reason": "difficulty-unmet",
+          "ms": 7.298
+        },
+        {
+          "seed": 10,
+          "reason": "difficulty-unmet",
+          "ms": 8.614
+        },
+        {
+          "seed": 11,
+          "reason": "difficulty-unmet",
+          "ms": 7.786
+        },
+        {
+          "seed": 12,
+          "reason": "difficulty-unmet",
+          "ms": 8.179
+        },
+        {
+          "seed": 13,
+          "reason": "difficulty-unmet",
+          "ms": 7.089
+        },
+        {
+          "seed": 14,
+          "reason": "difficulty-unmet",
+          "ms": 7.641
+        },
+        {
+          "seed": 15,
+          "reason": "difficulty-unmet",
+          "ms": 9.724
+        },
+        {
+          "seed": 16,
+          "reason": "difficulty-unmet",
+          "ms": 9.287
+        },
+        {
+          "seed": 18,
+          "reason": "difficulty-unmet",
+          "ms": 23.642
+        },
+        {
+          "seed": 19,
+          "reason": "difficulty-unmet",
+          "ms": 14.401
+        },
+        {
+          "seed": 20,
+          "reason": "difficulty-unmet",
+          "ms": 9.235
+        },
+        {
+          "seed": 21,
+          "reason": "difficulty-unmet",
+          "ms": 8.346
+        },
+        {
+          "seed": 22,
+          "reason": "difficulty-unmet",
+          "ms": 12.373
+        },
+        {
+          "seed": 23,
+          "reason": "difficulty-unmet",
+          "ms": 19.926
+        },
+        {
+          "seed": 24,
+          "reason": "difficulty-unmet",
+          "ms": 12.498
+        },
+        {
+          "seed": 25,
+          "reason": "difficulty-unmet",
+          "ms": 7.851
+        },
+        {
+          "seed": 26,
+          "reason": "difficulty-unmet",
+          "ms": 8.369
+        },
+        {
+          "seed": 27,
+          "reason": "difficulty-unmet",
+          "ms": 7.616
+        },
+        {
+          "seed": 28,
+          "reason": "difficulty-unmet",
+          "ms": 7.905
+        },
+        {
+          "seed": 29,
+          "reason": "difficulty-unmet",
+          "ms": 7.389
+        },
+        {
+          "seed": 30,
+          "reason": "difficulty-unmet",
+          "ms": 6.499
+        },
+        {
+          "seed": 31,
+          "reason": "difficulty-unmet",
+          "ms": 9.153
+        },
+        {
+          "seed": 32,
+          "reason": "difficulty-unmet",
+          "ms": 7.54
+        },
+        {
+          "seed": 33,
+          "reason": "difficulty-unmet",
+          "ms": 8.459
+        },
+        {
+          "seed": 34,
+          "reason": "difficulty-unmet",
+          "ms": 7.386
+        },
+        {
+          "seed": 35,
+          "reason": "difficulty-unmet",
+          "ms": 7.372
+        },
+        {
+          "seed": 36,
+          "reason": "difficulty-unmet",
+          "ms": 7.469
+        },
+        {
+          "seed": 37,
+          "reason": "difficulty-unmet",
+          "ms": 6.971
+        },
+        {
+          "seed": 39,
+          "reason": "difficulty-unmet",
+          "ms": 8.669
+        },
+        {
+          "seed": 40,
+          "reason": "difficulty-unmet",
+          "ms": 7.484
+        },
+        {
+          "seed": 41,
+          "reason": "difficulty-unmet",
+          "ms": 7.146
+        },
+        {
+          "seed": 42,
+          "reason": "difficulty-unmet",
+          "ms": 8
+        },
+        {
+          "seed": 43,
+          "reason": "difficulty-unmet",
+          "ms": 8.014
+        },
+        {
+          "seed": 44,
+          "reason": "difficulty-unmet",
+          "ms": 6.972
+        },
+        {
+          "seed": 45,
+          "reason": "difficulty-unmet",
+          "ms": 7.098
+        },
+        {
+          "seed": 46,
+          "reason": "difficulty-unmet",
+          "ms": 7.131
+        },
+        {
+          "seed": 47,
+          "reason": "difficulty-unmet",
+          "ms": 7.481
+        },
+        {
+          "seed": 48,
+          "reason": "difficulty-unmet",
+          "ms": 7.429
+        },
+        {
+          "seed": 49,
+          "reason": "difficulty-unmet",
+          "ms": 6.904
+        }
+      ],
+      "medianMs": 7.905,
+      "p95Ms": 14.507,
+      "maxMs": 23.642,
+      "successMedianMs": 0.994,
+      "minFixed": 0,
+      "maxFixed": 0,
+      "maxWork": 40423,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.828,
+      "p95Ms": 19.637,
+      "maxMs": 24.51,
+      "successMedianMs": 2.828,
+      "minFixed": 0,
+      "maxFixed": 0,
+      "maxWork": 129030,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2051,
+        "solverBudget": 0,
+        "gradeRejected": 1001,
+        "easy": 0,
+        "normal": 1001,
+        "hard": 50
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.343,
+      "p95Ms": 1.068,
+      "maxMs": 1.181,
+      "successMedianMs": 0.343,
+      "minFixed": 2,
+      "maxFixed": 6,
+      "maxWork": 5815,
+      "diagnostics": {
+        "fixedRejected": 2,
+        "multiple": 46,
+        "solverBudget": 0,
+        "gradeRejected": 9,
+        "easy": 50,
+        "normal": 9,
+        "hard": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.273,
+      "p95Ms": 0.795,
+      "maxMs": 0.945,
+      "successMedianMs": 0.273,
+      "minFixed": 2,
+      "maxFixed": 6,
+      "maxWork": 6054,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.564,
+      "p95Ms": 2.444,
+      "maxMs": 3.902,
+      "successMedianMs": 0.564,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 17948,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.358,
+      "p95Ms": 1.329,
+      "maxMs": 1.772,
+      "successMedianMs": 0.358,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 12496,
+      "diagnostics": {
+        "fixedRejected": 11,
+        "multiple": 69,
+        "solverBudget": 0,
+        "gradeRejected": 9,
+        "easy": 0,
+        "normal": 53,
+        "hard": 6
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 4.997,
+      "p95Ms": 27.316,
+      "maxMs": 35.152,
+      "successMedianMs": 4.997,
+      "minFixed": 0,
+      "maxFixed": 1,
+      "maxWork": 208681,
+      "diagnostics": {
+        "fixedRejected": 1373,
+        "multiple": 1289,
+        "solverBudget": 0,
+        "gradeRejected": 592,
+        "easy": 0,
+        "normal": 592,
+        "hard": 50
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 44,
+      "failureReasons": {
+        "difficulty-unmet": 6
+      },
+      "failures": [
+        {
+          "seed": 10,
+          "reason": "difficulty-unmet",
+          "ms": 12.37
+        },
+        {
+          "seed": 26,
+          "reason": "difficulty-unmet",
+          "ms": 11.645
+        },
+        {
+          "seed": 28,
+          "reason": "difficulty-unmet",
+          "ms": 12.164
+        },
+        {
+          "seed": 30,
+          "reason": "difficulty-unmet",
+          "ms": 13.18
+        },
+        {
+          "seed": 36,
+          "reason": "difficulty-unmet",
+          "ms": 13.691
+        },
+        {
+          "seed": 47,
+          "reason": "difficulty-unmet",
+          "ms": 12.738
+        }
+      ],
+      "medianMs": 5.349,
+      "p95Ms": 12.738,
+      "maxMs": 13.691,
+      "successMedianMs": 4.894,
+      "minFixed": 0,
+      "maxFixed": 1,
+      "maxWork": 101671,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.416,
+      "p95Ms": 0.911,
+      "maxMs": 1.696,
+      "successMedianMs": 0.416,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 11738,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.492,
+      "p95Ms": 1.292,
+      "maxMs": 1.679,
+      "successMedianMs": 0.492,
+      "minFixed": 1,
+      "maxFixed": 7,
+      "maxWork": 10521,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 31,
+        "solverBudget": 0,
+        "gradeRejected": 25,
+        "easy": 50,
+        "normal": 24,
+        "hard": 1
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.595,
+      "p95Ms": 2.029,
+      "maxMs": 5.271,
+      "successMedianMs": 0.595,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 28109,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 12,
+        "solverBudget": 0,
+        "gradeRejected": 9,
+        "easy": 0,
+        "normal": 51,
+        "hard": 1
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.48,
+      "p95Ms": 1.838,
+      "maxMs": 3.253,
+      "successMedianMs": 0.48,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 27994,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.957,
+      "p95Ms": 14.801,
+      "maxMs": 24.657,
+      "successMedianMs": 3.957,
+      "minFixed": 0,
+      "maxFixed": 3,
+      "maxWork": 169338,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 5.524,
+      "p95Ms": 24.111,
+      "maxMs": 36.552,
+      "successMedianMs": 5.524,
+      "minFixed": 0,
+      "maxFixed": 3,
+      "maxWork": 295150,
+      "diagnostics": {
+        "fixedRejected": 166,
+        "multiple": 586,
+        "solverBudget": 0,
+        "gradeRejected": 508,
+        "easy": 1,
+        "normal": 507,
+        "hard": 50
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.059,
+      "p95Ms": 2.07,
+      "maxMs": 3.774,
+      "successMedianMs": 1.059,
+      "minFixed": 2,
+      "maxFixed": 8,
+      "maxWork": 30592,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 52,
+        "solverBudget": 0,
+        "gradeRejected": 40,
+        "easy": 50,
+        "normal": 39,
+        "hard": 1
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.867,
+      "p95Ms": 1.688,
+      "maxMs": 1.905,
+      "successMedianMs": 0.867,
+      "minFixed": 2,
+      "maxFixed": 10,
+      "maxWork": 17689,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.62,
+      "p95Ms": 5.759,
+      "maxMs": 8.087,
+      "successMedianMs": 1.62,
+      "minFixed": 1,
+      "maxFixed": 7,
+      "maxWork": 113863,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.796,
+      "p95Ms": 1.666,
+      "maxMs": 1.963,
+      "successMedianMs": 0.796,
+      "minFixed": 2,
+      "maxFixed": 7,
+      "maxWork": 19976,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 55,
+        "solverBudget": 0,
+        "gradeRejected": 3,
+        "easy": 0,
+        "normal": 50,
+        "hard": 3
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.424,
+      "p95Ms": 15.633,
+      "maxMs": 19.384,
+      "successMedianMs": 3.424,
+      "minFixed": 0,
+      "maxFixed": 4,
+      "maxWork": 269839,
+      "diagnostics": {
+        "fixedRejected": 59,
+        "multiple": 222,
+        "solverBudget": 0,
+        "gradeRejected": 119,
+        "easy": 0,
+        "normal": 119,
+        "hard": 50
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 7.421,
+      "p95Ms": 18.311,
+      "maxMs": 27.968,
+      "successMedianMs": 7.421,
+      "minFixed": 0,
+      "maxFixed": 4,
+      "maxWork": 421509,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.974,
+      "p95Ms": 3.783,
+      "maxMs": 4.784,
+      "successMedianMs": 0.974,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 49345,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.006,
+      "p95Ms": 3.178,
+      "maxMs": 3.803,
+      "successMedianMs": 1.006,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 36956,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 51,
+        "solverBudget": 0,
+        "gradeRejected": 31,
+        "easy": 50,
+        "normal": 30,
+        "hard": 1
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.139,
+      "p95Ms": 2.697,
+      "maxMs": 3.366,
+      "successMedianMs": 1.139,
+      "minFixed": 1,
+      "maxFixed": 9,
+      "maxWork": 42382,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 50,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 0,
+        "normal": 50,
+        "hard": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.61,
+      "p95Ms": 6.858,
+      "maxMs": 32.778,
+      "successMedianMs": 1.61,
+      "minFixed": 1,
+      "maxFixed": 9,
+      "maxWork": 657953,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.945,
+      "p95Ms": 22.042,
+      "maxMs": 34.369,
+      "successMedianMs": 2.945,
+      "minFixed": 0,
+      "maxFixed": 5,
+      "maxWork": 645948,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 5.703,
+      "p95Ms": 29.303,
+      "maxMs": 32.289,
+      "successMedianMs": 5.703,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 437331,
+      "diagnostics": {
+        "fixedRejected": 49,
+        "multiple": 226,
+        "solverBudget": 0,
+        "gradeRejected": 111,
+        "easy": 0,
+        "normal": 111,
+        "hard": 50
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.888,
+      "p95Ms": 5.122,
+      "maxMs": 6.365,
+      "successMedianMs": 1.888,
+      "minFixed": 2,
+      "maxFixed": 14,
+      "maxWork": 68709,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 56,
+        "solverBudget": 0,
+        "gradeRejected": 41,
+        "easy": 50,
+        "normal": 39,
+        "hard": 2
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.543,
+      "p95Ms": 5.261,
+      "maxMs": 5.457,
+      "successMedianMs": 1.543,
+      "minFixed": 4,
+      "maxFixed": 12,
+      "maxWork": 61031,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 5.936,
+      "p95Ms": 21.23,
+      "maxMs": 61.966,
+      "successMedianMs": 5.936,
+      "minFixed": 2,
+      "maxFixed": 12,
+      "maxWork": 1080995,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.759,
+      "p95Ms": 4.476,
+      "maxMs": 5.74,
+      "successMedianMs": 1.759,
+      "minFixed": 3,
+      "maxFixed": 12,
+      "maxWork": 77525,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 45,
+        "solverBudget": 0,
+        "gradeRejected": 6,
+        "easy": 0,
+        "normal": 50,
+        "hard": 6
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 15.512,
+      "p95Ms": 55.411,
+      "maxMs": 78.912,
+      "successMedianMs": 15.512,
+      "minFixed": 2,
+      "maxFixed": 7,
+      "maxWork": 1474022,
+      "diagnostics": {
+        "fixedRejected": 29,
+        "multiple": 192,
+        "solverBudget": 0,
+        "gradeRejected": 64,
+        "easy": 0,
+        "normal": 64,
+        "hard": 50
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 12.494,
+      "p95Ms": 54.838,
+      "maxMs": 98.457,
+      "successMedianMs": 12.494,
+      "minFixed": 1,
+      "maxFixed": 7,
+      "maxWork": 1513534,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.028,
+      "p95Ms": 7.878,
+      "maxMs": 9.935,
+      "successMedianMs": 3.028,
+      "minFixed": 5,
+      "maxFixed": 13,
+      "maxWork": 103536,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.598,
+      "p95Ms": 13.318,
+      "maxMs": 19.195,
+      "successMedianMs": 3.598,
+      "minFixed": 3,
+      "maxFixed": 17,
+      "maxWork": 161712,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 98,
+        "solverBudget": 0,
+        "gradeRejected": 63,
+        "easy": 50,
+        "normal": 58,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.35,
+      "p95Ms": 11.67,
+      "maxMs": 29.276,
+      "successMedianMs": 3.35,
+      "minFixed": 2,
+      "maxFixed": 14,
+      "maxWork": 460273,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 64,
+        "solverBudget": 0,
+        "gradeRejected": 18,
+        "easy": 0,
+        "normal": 50,
+        "hard": 18
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 29.247,
+      "p95Ms": 124.224,
+      "maxMs": 292.852,
+      "successMedianMs": 29.247,
+      "minFixed": 4,
+      "maxFixed": 16,
+      "maxWork": 5492457,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v2",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 16.9,
+      "p95Ms": 76.513,
+      "maxMs": 146.13,
+      "successMedianMs": 16.9,
+      "minFixed": 1,
+      "maxFixed": 9,
+      "maxWork": 2904661,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 50,
+      "kind": "full",
+      "version": "calcudoku-v3",
+      "successes": 50,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 26.155,
+      "p95Ms": 132.453,
+      "maxMs": 165.397,
+      "successMedianMs": 26.155,
+      "minFixed": 2,
+      "maxFixed": 9,
+      "maxWork": 3015742,
+      "diagnostics": {
+        "fixedRejected": 17,
+        "multiple": 180,
+        "solverBudget": 5,
+        "gradeRejected": 53,
+        "easy": 0,
+        "normal": 53,
+        "hard": 50
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.14,
+      "p95Ms": 0.252,
+      "maxMs": 0.252,
+      "successMedianMs": 0.14,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 664,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.065,
+      "p95Ms": 0.187,
+      "maxMs": 0.187,
+      "successMedianMs": 0.065,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 639,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.24,
+      "p95Ms": 1.037,
+      "maxMs": 1.037,
+      "successMedianMs": 0.24,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 883,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.158,
+      "p95Ms": 0.225,
+      "maxMs": 0.225,
+      "successMedianMs": 0.158,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 883,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.163,
+      "p95Ms": 0.187,
+      "maxMs": 0.187,
+      "successMedianMs": 0.163,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 652,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.075,
+      "p95Ms": 0.127,
+      "maxMs": 0.127,
+      "successMedianMs": 0.075,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 633,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.103,
+      "p95Ms": 0.162,
+      "maxMs": 0.162,
+      "successMedianMs": 0.103,
+      "minFixed": 3,
+      "maxFixed": 3,
+      "maxWork": 321,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.116,
+      "p95Ms": 0.169,
+      "maxMs": 0.169,
+      "successMedianMs": 0.116,
+      "minFixed": 3,
+      "maxFixed": 3,
+      "maxWork": 351,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 15
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.292,
+      "p95Ms": 0.551,
+      "maxMs": 0.551,
+      "successMedianMs": 0.292,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 1831,
+      "diagnostics": {
+        "fixedRejected": 7,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 3,
+        "normal": 7,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.103,
+      "p95Ms": 0.825,
+      "maxMs": 0.825,
+      "successMedianMs": 0.103,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 4018,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 3.669
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 3.322
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 3.303
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 2.907
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 2.697
+        }
+      ],
+      "medianMs": 3.303,
+      "p95Ms": 3.669,
+      "maxMs": 3.669,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 17971,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 50.622
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 45.704
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 37.258
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 34.291
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 34.466
+        }
+      ],
+      "medianMs": 37.258,
+      "p95Ms": 50.622,
+      "maxMs": 50.622,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 193531,
+      "diagnostics": {
+        "fixedRejected": 1580,
+        "multiple": 1497,
+        "solverBudget": 0,
+        "gradeRejected": 416,
+        "easy": 415,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.326,
+      "p95Ms": 0.486,
+      "maxMs": 0.486,
+      "successMedianMs": 0.326,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 1815,
+      "diagnostics": {
+        "fixedRejected": 7,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 3,
+        "normal": 7,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.085,
+      "p95Ms": 1.004,
+      "maxMs": 1.004,
+      "successMedianMs": 0.085,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 3998,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 0.631
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 0.613
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 0.615
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 0.62
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 0.652
+        }
+      ],
+      "medianMs": 0.62,
+      "p95Ms": 0.652,
+      "maxMs": 0.652,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 28.276
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 27.937
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 27.974
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 28.176
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 27.538
+        }
+      ],
+      "medianMs": 27.974,
+      "p95Ms": 28.276,
+      "maxMs": 28.276,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 131572,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 2000,
+        "easy": 2000,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 15
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 88.253
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 94.368
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 82.987
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 81.436
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 82.645
+        }
+      ],
+      "medianMs": 82.987,
+      "p95Ms": 94.368,
+      "maxMs": 94.368,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 652778,
+      "diagnostics": {
+        "fixedRejected": 44,
+        "multiple": 4397,
+        "solverBudget": 0,
+        "gradeRejected": 3596,
+        "easy": 611,
+        "normal": 2985,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 5.475
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 6.035
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 5.896
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 5.659
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 5.494
+        }
+      ],
+      "medianMs": 5.659,
+      "p95Ms": 6.035,
+      "maxMs": 6.035,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 35385,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 6.585
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 6.36
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 6.602
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 6.56
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 6.727
+        }
+      ],
+      "medianMs": 6.585,
+      "p95Ms": 6.727,
+      "maxMs": 6.727,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 45989,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 135.958
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 162.597
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 138.296
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 127.508
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 133.281
+        }
+      ],
+      "medianMs": 135.958,
+      "p95Ms": 162.597,
+      "maxMs": 162.597,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 764210,
+      "diagnostics": {
+        "fixedRejected": 5543,
+        "multiple": 6049,
+        "solverBudget": 0,
+        "gradeRejected": 1613,
+        "easy": 1612,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 87.127
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 85.065
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 84.655
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 86.508
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 83.687
+        }
+      ],
+      "medianMs": 85.065,
+      "p95Ms": 87.127,
+      "maxMs": 87.127,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 623290,
+      "diagnostics": {
+        "fixedRejected": 41,
+        "multiple": 4230,
+        "solverBudget": 0,
+        "gradeRejected": 3759,
+        "easy": 611,
+        "normal": 3148,
+        "hard": 0
+      }
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 5.536
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 5.898
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 5.894
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 5.721
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 5.502
+        }
+      ],
+      "medianMs": 5.721,
+      "p95Ms": 5.898,
+      "maxMs": 5.898,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 33162,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 1.498
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 1.493
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 1.454
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 1.775
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 1.448
+        }
+      ],
+      "medianMs": 1.493,
+      "p95Ms": 1.775,
+      "maxMs": 1.775,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 3,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 121.253
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 116.769
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 111.107
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 114.109
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 140.2
+        }
+      ],
+      "medianMs": 116.769,
+      "p95Ms": 140.2,
+      "maxMs": 140.2,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 528148,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 8000,
+        "easy": 8000,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 15
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.151,
+      "p95Ms": 0.229,
+      "maxMs": 0.229,
+      "successMedianMs": 0.151,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 1570,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.189,
+      "p95Ms": 0.306,
+      "maxMs": 0.306,
+      "successMedianMs": 0.189,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 2598,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.242,
+      "p95Ms": 1.662,
+      "maxMs": 1.662,
+      "successMedianMs": 0.242,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 13688,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.266,
+      "p95Ms": 1.24,
+      "maxMs": 1.24,
+      "successMedianMs": 0.266,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 10236,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 5,
+        "normal": 3,
+        "hard": 0,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.122,
+      "p95Ms": 0.202,
+      "maxMs": 0.202,
+      "successMedianMs": 0.122,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 1207,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.113,
+      "p95Ms": 0.193,
+      "maxMs": 0.193,
+      "successMedianMs": 0.113,
+      "minFixed": 2,
+      "maxFixed": 2,
+      "maxWork": 1538,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.129,
+      "p95Ms": 0.242,
+      "maxMs": 0.242,
+      "successMedianMs": 0.129,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 856,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.164,
+      "p95Ms": 0.576,
+      "maxMs": 0.576,
+      "successMedianMs": 0.164,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 5108,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 5,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 10
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.472,
+      "p95Ms": 0.898,
+      "maxMs": 0.898,
+      "successMedianMs": 0.472,
+      "minFixed": 2,
+      "maxFixed": 3,
+      "maxWork": 7615,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 8,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 0,
+        "normal": 5,
+        "hard": 1
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.685,
+      "p95Ms": 2.012,
+      "maxMs": 2.012,
+      "successMedianMs": 0.685,
+      "minFixed": 2,
+      "maxFixed": 3,
+      "maxWork": 20771,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.713,
+      "p95Ms": 1.911,
+      "maxMs": 1.911,
+      "successMedianMs": 0.713,
+      "minFixed": 2,
+      "maxFixed": 2,
+      "maxWork": 17816,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.499,
+      "p95Ms": 2.986,
+      "maxMs": 2.986,
+      "successMedianMs": 0.499,
+      "minFixed": 2,
+      "maxFixed": 2,
+      "maxWork": 23679,
+      "diagnostics": {
+        "fixedRejected": 13,
+        "multiple": 16,
+        "solverBudget": 0,
+        "gradeRejected": 8,
+        "easy": 4,
+        "normal": 5,
+        "hard": 1,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.494,
+      "p95Ms": 0.736,
+      "maxMs": 0.736,
+      "successMedianMs": 0.494,
+      "minFixed": 2,
+      "maxFixed": 3,
+      "maxWork": 6053,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 7,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.287,
+      "p95Ms": 0.795,
+      "maxMs": 0.795,
+      "successMedianMs": 0.287,
+      "minFixed": 2,
+      "maxFixed": 3,
+      "maxWork": 4790,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 2,
+        "operator-constraints": 3
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 1.471
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 1.623
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 1.336
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 1.303
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 1.437
+        }
+      ],
+      "medianMs": 1.437,
+      "p95Ms": 1.623,
+      "maxMs": 1.623,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 3648,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 69.215
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 71.444
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 72.42
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 70.367
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 68.878
+        }
+      ],
+      "medianMs": 70.367,
+      "p95Ms": 72.42,
+      "maxMs": 72.42,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 509179,
+      "diagnostics": {
+        "fixedRejected": 1003,
+        "multiple": 1411,
+        "solverBudget": 0,
+        "gradeRejected": 997,
+        "easy": 997,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.93,
+      "p95Ms": 15.95,
+      "maxMs": 15.95,
+      "successMedianMs": 2.93,
+      "minFixed": 0,
+      "maxFixed": 1,
+      "maxWork": 120434,
+      "diagnostics": {
+        "fixedRejected": 123,
+        "multiple": 122,
+        "solverBudget": 0,
+        "gradeRejected": 44,
+        "easy": 0,
+        "normal": 44,
+        "hard": 5
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 3,
+      "failureReasons": {
+        "difficulty-unmet": 2
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 14.693
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 15.595
+        }
+      ],
+      "medianMs": 8.127,
+      "p95Ms": 15.595,
+      "maxMs": 15.595,
+      "successMedianMs": 6.724,
+      "minFixed": 0,
+      "maxFixed": 1,
+      "maxWork": 125498,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 8.128
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 12.662
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 14.175
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 14.108
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 9.766
+        }
+      ],
+      "medianMs": 12.662,
+      "p95Ms": 14.175,
+      "maxMs": 14.175,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 69400,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 46.43
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 46.798
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 50.952
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 51.493
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 53.748
+        }
+      ],
+      "medianMs": 50.952,
+      "p95Ms": 53.748,
+      "maxMs": 53.748,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 286182,
+      "diagnostics": {
+        "fixedRejected": 1995,
+        "multiple": 795,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 68.588
+        }
+      ],
+      "medianMs": 28.002,
+      "p95Ms": 68.588,
+      "maxMs": 68.588,
+      "successMedianMs": 25.862,
+      "minFixed": 0,
+      "maxFixed": 1,
+      "maxWork": 437637,
+      "diagnostics": {
+        "fixedRejected": 612,
+        "multiple": 592,
+        "solverBudget": 0,
+        "gradeRejected": 310,
+        "easy": 0,
+        "normal": 310,
+        "hard": 4
+      }
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "difficulty-unmet": 4
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 17.275
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 12.873
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 11.957
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 12.676
+        }
+      ],
+      "medianMs": 12.676,
+      "p95Ms": 17.275,
+      "maxMs": 17.275,
+      "successMedianMs": 7.856,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 102503,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 3.249
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 2.945
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 3.316
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 3.298
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 2.936
+        }
+      ],
+      "medianMs": 3.249,
+      "p95Ms": 3.316,
+      "maxMs": 3.316,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 2774,
+      "diagnostics": {}
+    },
+    {
+      "size": 4,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 59.66
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 57.968
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 58.617
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 58.546
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 58.195
+        }
+      ],
+      "medianMs": 58.546,
+      "p95Ms": 59.66,
+      "maxMs": 59.66,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 406990,
+      "diagnostics": {
+        "fixedRejected": 1008,
+        "multiple": 1008,
+        "solverBudget": 0,
+        "gradeRejected": 992,
+        "easy": 992,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.28,
+      "p95Ms": 0.478,
+      "maxMs": 0.478,
+      "successMedianMs": 0.28,
+      "minFixed": 1,
+      "maxFixed": 7,
+      "maxWork": 3165,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.334,
+      "p95Ms": 0.889,
+      "maxMs": 0.889,
+      "successMedianMs": 0.334,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 5246,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.577,
+      "p95Ms": 2.966,
+      "maxMs": 2.966,
+      "successMedianMs": 1.577,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 36436,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.771,
+      "p95Ms": 2.481,
+      "maxMs": 2.481,
+      "successMedianMs": 0.771,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 29539,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 6,
+        "solverBudget": 0,
+        "gradeRejected": 8,
+        "easy": 5,
+        "normal": 2,
+        "hard": 2,
+        "matchingMinSinglesTotal": 4
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.236,
+      "p95Ms": 0.426,
+      "maxMs": 0.426,
+      "successMedianMs": 0.236,
+      "minFixed": 1,
+      "maxFixed": 7,
+      "maxWork": 2513,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.189,
+      "p95Ms": 0.312,
+      "maxMs": 0.312,
+      "successMedianMs": 0.189,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 2510,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.278,
+      "p95Ms": 0.4,
+      "maxMs": 0.4,
+      "successMedianMs": 0.278,
+      "minFixed": 9,
+      "maxFixed": 11,
+      "maxWork": 1429,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.39,
+      "p95Ms": 0.639,
+      "maxMs": 0.639,
+      "successMedianMs": 0.39,
+      "minFixed": 9,
+      "maxFixed": 13,
+      "maxWork": 2719,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 45
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.31,
+      "p95Ms": 1.437,
+      "maxMs": 1.437,
+      "successMedianMs": 0.31,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 19074,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 2,
+        "easy": 0,
+        "normal": 5,
+        "hard": 2
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.135,
+      "p95Ms": 1.698,
+      "maxMs": 1.698,
+      "successMedianMs": 1.135,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 22423,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.165,
+      "p95Ms": 1.623,
+      "maxMs": 1.623,
+      "successMedianMs": 1.165,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 20830,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.535,
+      "p95Ms": 4.421,
+      "maxMs": 4.421,
+      "successMedianMs": 1.535,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 44884,
+      "diagnostics": {
+        "fixedRejected": 3,
+        "multiple": 11,
+        "solverBudget": 0,
+        "gradeRejected": 10,
+        "easy": 4,
+        "normal": 5,
+        "hard": 2,
+        "matchingMinSinglesTotal": 4
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.26,
+      "p95Ms": 0.371,
+      "maxMs": 0.371,
+      "successMedianMs": 0.26,
+      "minFixed": 1,
+      "maxFixed": 4,
+      "maxWork": 3477,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.46,
+      "p95Ms": 0.983,
+      "maxMs": 0.983,
+      "successMedianMs": 0.46,
+      "minFixed": 2,
+      "maxFixed": 5,
+      "maxWork": 8132,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 2.044
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 2.123
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 2.317
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 1.835
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 1.828
+        }
+      ],
+      "medianMs": 2.044,
+      "p95Ms": 2.317,
+      "maxMs": 2.317,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 114.086
+        }
+      ],
+      "medianMs": 100.096,
+      "p95Ms": 114.086,
+      "maxMs": 114.086,
+      "successMedianMs": 86.473,
+      "minFixed": 7,
+      "maxFixed": 7,
+      "maxWork": 732511,
+      "diagnostics": {
+        "fixedRejected": 7,
+        "multiple": 549,
+        "solverBudget": 0,
+        "gradeRejected": 1394,
+        "easy": 1394,
+        "normal": 4,
+        "hard": 0,
+        "matchingMinSinglesTotal": 35
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.821,
+      "p95Ms": 4.064,
+      "maxMs": 4.064,
+      "successMedianMs": 0.821,
+      "minFixed": 0,
+      "maxFixed": 2,
+      "maxWork": 38774,
+      "diagnostics": {
+        "fixedRejected": 4,
+        "multiple": 8,
+        "solverBudget": 0,
+        "gradeRejected": 7,
+        "easy": 0,
+        "normal": 7,
+        "hard": 5
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.262,
+      "p95Ms": 6.615,
+      "maxMs": 6.615,
+      "successMedianMs": 3.262,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 75566,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.722,
+      "p95Ms": 2.994,
+      "maxMs": 2.994,
+      "successMedianMs": 0.722,
+      "minFixed": 3,
+      "maxFixed": 3,
+      "maxWork": 30956,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.244,
+      "p95Ms": 5.906,
+      "maxMs": 5.906,
+      "successMedianMs": 1.244,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 57968,
+      "diagnostics": {
+        "fixedRejected": 12,
+        "multiple": 16,
+        "solverBudget": 0,
+        "gradeRejected": 8,
+        "easy": 1,
+        "normal": 5,
+        "hard": 5,
+        "matchingMinSinglesTotal": 2
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 170.256
+        }
+      ],
+      "medianMs": 135.048,
+      "p95Ms": 170.256,
+      "maxMs": 170.256,
+      "successMedianMs": 107.016,
+      "minFixed": 1,
+      "maxFixed": 2,
+      "maxWork": 1335948,
+      "diagnostics": {
+        "fixedRejected": 321,
+        "multiple": 1166,
+        "solverBudget": 0,
+        "gradeRejected": 1151,
+        "easy": 0,
+        "normal": 1151,
+        "hard": 4
+      }
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "difficulty-unmet": 4
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 33.583
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 28.077
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 28.939
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 29.855
+        }
+      ],
+      "medianMs": 28.939,
+      "p95Ms": 33.583,
+      "maxMs": 33.583,
+      "successMedianMs": 1.497,
+      "minFixed": 1,
+      "maxFixed": 1,
+      "maxWork": 295230,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 5.299
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 5.202
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 5.012
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 4.854
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 5.065
+        }
+      ],
+      "medianMs": 5.065,
+      "p95Ms": 5.299,
+      "maxMs": 5.299,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 5,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 119.18
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 131.459
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 125.054
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 114.481
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 115.932
+        }
+      ],
+      "medianMs": 119.18,
+      "p95Ms": 131.459,
+      "maxMs": 131.459,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 767685,
+      "diagnostics": {
+        "fixedRejected": 12,
+        "multiple": 808,
+        "solverBudget": 0,
+        "gradeRejected": 1988,
+        "easy": 1982,
+        "normal": 6,
+        "hard": 0,
+        "matchingMinSinglesTotal": 35
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.994,
+      "p95Ms": 1.324,
+      "maxMs": 1.324,
+      "successMedianMs": 0.994,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 10605,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 5,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.589,
+      "p95Ms": 1.186,
+      "maxMs": 1.186,
+      "successMedianMs": 0.589,
+      "minFixed": 2,
+      "maxFixed": 8,
+      "maxWork": 9056,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 5.595,
+      "p95Ms": 10.052,
+      "maxMs": 10.052,
+      "successMedianMs": 5.595,
+      "minFixed": 6,
+      "maxFixed": 10,
+      "maxWork": 134979,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.698,
+      "p95Ms": 20.379,
+      "maxMs": 20.379,
+      "successMedianMs": 3.698,
+      "minFixed": 6,
+      "maxFixed": 8,
+      "maxWork": 239935,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 29,
+        "solverBudget": 0,
+        "gradeRejected": 31,
+        "easy": 5,
+        "normal": 18,
+        "hard": 9,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.567,
+      "p95Ms": 1.458,
+      "maxMs": 1.458,
+      "successMedianMs": 0.567,
+      "minFixed": 2,
+      "maxFixed": 6,
+      "maxWork": 4173,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 5,
+        "normal": 1,
+        "hard": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.294,
+      "p95Ms": 0.708,
+      "maxMs": 0.708,
+      "successMedianMs": 0.294,
+      "minFixed": 2,
+      "maxFixed": 8,
+      "maxWork": 6162,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.466,
+      "p95Ms": 1.43,
+      "maxMs": 1.43,
+      "successMedianMs": 0.466,
+      "minFixed": 12,
+      "maxFixed": 16,
+      "maxWork": 4054,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.806,
+      "p95Ms": 1.67,
+      "maxMs": 1.67,
+      "successMedianMs": 0.806,
+      "minFixed": 10,
+      "maxFixed": 14,
+      "maxWork": 10163,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 5,
+        "solverBudget": 0,
+        "gradeRejected": 2,
+        "easy": 5,
+        "normal": 2,
+        "hard": 0,
+        "matchingMinSinglesTotal": 40
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.783,
+      "p95Ms": 0.862,
+      "maxMs": 0.862,
+      "successMedianMs": 0.783,
+      "minFixed": 3,
+      "maxFixed": 6,
+      "maxWork": 9021,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 5,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 6.107,
+      "p95Ms": 8.929,
+      "maxMs": 8.929,
+      "successMedianMs": 6.107,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 147160,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 4.557,
+      "p95Ms": 12.013,
+      "maxMs": 12.013,
+      "successMedianMs": 4.557,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 168129,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.242,
+      "p95Ms": 9.281,
+      "maxMs": 9.281,
+      "successMedianMs": 1.242,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 104784,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 8,
+        "solverBudget": 0,
+        "gradeRejected": 12,
+        "easy": 2,
+        "normal": 5,
+        "hard": 8,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.629,
+      "p95Ms": 0.645,
+      "maxMs": 0.645,
+      "successMedianMs": 0.629,
+      "minFixed": 2,
+      "maxFixed": 6,
+      "maxWork": 5514,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.053,
+      "p95Ms": 2.83,
+      "maxMs": 2.83,
+      "successMedianMs": 1.053,
+      "minFixed": 4,
+      "maxFixed": 5,
+      "maxWork": 27767,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 3.232
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 2.8
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 3.428
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 3.326
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 2.844
+        }
+      ],
+      "medianMs": 3.232,
+      "p95Ms": 3.428,
+      "maxMs": 3.428,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 6.552,
+      "p95Ms": 12.831,
+      "maxMs": 12.831,
+      "successMedianMs": 6.552,
+      "minFixed": 6,
+      "maxFixed": 10,
+      "maxWork": 91087,
+      "diagnostics": {
+        "fixedRejected": 10,
+        "multiple": 37,
+        "solverBudget": 0,
+        "gradeRejected": 46,
+        "easy": 46,
+        "normal": 5,
+        "hard": 0,
+        "matchingMinSinglesTotal": 32
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.719,
+      "p95Ms": 7.349,
+      "maxMs": 7.349,
+      "successMedianMs": 1.719,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 61367,
+      "diagnostics": {
+        "fixedRejected": 2,
+        "multiple": 9,
+        "solverBudget": 0,
+        "gradeRejected": 3,
+        "easy": 0,
+        "normal": 3,
+        "hard": 5
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.817,
+      "p95Ms": 47.037,
+      "maxMs": 47.037,
+      "successMedianMs": 2.817,
+      "minFixed": 1,
+      "maxFixed": 4,
+      "maxWork": 689618,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.356,
+      "p95Ms": 8.488,
+      "maxMs": 8.488,
+      "successMedianMs": 2.356,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 100027,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.974,
+      "p95Ms": 3.159,
+      "maxMs": 3.159,
+      "successMedianMs": 0.974,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 36912,
+      "diagnostics": {
+        "fixedRejected": 2,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 2,
+        "easy": 0,
+        "normal": 1,
+        "hard": 5,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 48.639,
+      "p95Ms": 130.237,
+      "maxMs": 130.237,
+      "successMedianMs": 48.639,
+      "minFixed": 1,
+      "maxFixed": 3,
+      "maxWork": 1248582,
+      "diagnostics": {
+        "fixedRejected": 85,
+        "multiple": 344,
+        "solverBudget": 0,
+        "gradeRejected": 260,
+        "easy": 0,
+        "normal": 260,
+        "hard": 5
+      }
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 65.06
+        }
+      ],
+      "medianMs": 30.241,
+      "p95Ms": 65.06,
+      "maxMs": 65.06,
+      "successMedianMs": 14.467,
+      "minFixed": 2,
+      "maxFixed": 3,
+      "maxWork": 686456,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 8.621
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 12.016
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 12.453
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 8.748
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 7.699
+        }
+      ],
+      "medianMs": 8.748,
+      "p95Ms": 12.453,
+      "maxMs": 12.453,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 6,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 213.687
+        }
+      ],
+      "medianMs": 192.387,
+      "p95Ms": 213.687,
+      "maxMs": 213.687,
+      "successMedianMs": 132.047,
+      "minFixed": 6,
+      "maxFixed": 10,
+      "maxWork": 1647990,
+      "diagnostics": {
+        "fixedRejected": 217,
+        "multiple": 923,
+        "solverBudget": 0,
+        "gradeRejected": 1164,
+        "easy": 1088,
+        "normal": 76,
+        "hard": 4,
+        "matchingMinSinglesTotal": 20
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.965,
+      "p95Ms": 5.047,
+      "maxMs": 5.047,
+      "successMedianMs": 1.965,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 43767,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 9,
+        "solverBudget": 0,
+        "gradeRejected": 10,
+        "easy": 5,
+        "normal": 10,
+        "hard": 0
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.09,
+      "p95Ms": 5.191,
+      "maxMs": 5.191,
+      "successMedianMs": 1.09,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 46892,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 2,
+      "failureReasons": {
+        "difficulty-unmet": 3
+      },
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 71.907
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 104.494
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 89.318
+        }
+      ],
+      "medianMs": 71.907,
+      "p95Ms": 104.494,
+      "maxMs": 104.494,
+      "successMedianMs": 21.42,
+      "minFixed": 5,
+      "maxFixed": 7,
+      "maxWork": 1316794,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 71.933,
+      "p95Ms": 95.611,
+      "maxMs": 95.611,
+      "successMedianMs": 71.933,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 1398268,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 97,
+        "solverBudget": 0,
+        "gradeRejected": 113,
+        "easy": 5,
+        "normal": 37,
+        "hard": 71,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.746,
+      "p95Ms": 1.229,
+      "maxMs": 1.229,
+      "successMedianMs": 0.746,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 8775,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.438,
+      "p95Ms": 0.602,
+      "maxMs": 0.602,
+      "successMedianMs": 0.438,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 3308,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "operator-constraints": 4
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 6.487
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 5.013
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 4.879
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 4.569
+        }
+      ],
+      "medianMs": 5.013,
+      "p95Ms": 6.487,
+      "maxMs": 6.487,
+      "successMedianMs": 5.736,
+      "minFixed": 17,
+      "maxFixed": 17,
+      "maxWork": 3568,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.879,
+      "p95Ms": 1.343,
+      "maxMs": 1.343,
+      "successMedianMs": 0.879,
+      "minFixed": 17,
+      "maxFixed": 23,
+      "maxWork": 7930,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 95
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.851,
+      "p95Ms": 2.513,
+      "maxMs": 2.513,
+      "successMedianMs": 0.851,
+      "minFixed": 3,
+      "maxFixed": 6,
+      "maxWork": 27691,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 26.681,
+      "p95Ms": 136.181,
+      "maxMs": 136.181,
+      "successMedianMs": 26.681,
+      "minFixed": 4,
+      "maxFixed": 9,
+      "maxWork": 2584757,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.56,
+      "p95Ms": 9.554,
+      "maxMs": 9.554,
+      "successMedianMs": 1.56,
+      "minFixed": 5,
+      "maxFixed": 7,
+      "maxWork": 134856,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 10.678,
+      "p95Ms": 37.843,
+      "maxMs": 37.843,
+      "successMedianMs": 10.678,
+      "minFixed": 5,
+      "maxFixed": 7,
+      "maxWork": 581720,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 21,
+        "solverBudget": 0,
+        "gradeRejected": 26,
+        "easy": 0,
+        "normal": 5,
+        "hard": 21,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.908,
+      "p95Ms": 1.372,
+      "maxMs": 1.372,
+      "successMedianMs": 0.908,
+      "minFixed": 3,
+      "maxFixed": 6,
+      "maxWork": 13038,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.816,
+      "p95Ms": 1.233,
+      "maxMs": 1.233,
+      "successMedianMs": 0.816,
+      "minFixed": 2,
+      "maxFixed": 9,
+      "maxWork": 14704,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 7.926
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 7.396
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 7.399
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 7.074
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 4.77
+        }
+      ],
+      "medianMs": 7.396,
+      "p95Ms": 7.926,
+      "maxMs": 7.926,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 51.503,
+      "p95Ms": 210.766,
+      "maxMs": 210.766,
+      "successMedianMs": 51.503,
+      "minFixed": 13,
+      "maxFixed": 19,
+      "maxWork": 1471595,
+      "diagnostics": {
+        "fixedRejected": 84,
+        "multiple": 396,
+        "solverBudget": 0,
+        "gradeRejected": 577,
+        "easy": 577,
+        "normal": 5,
+        "hard": 0,
+        "matchingMinSinglesTotal": 65
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 5.928,
+      "p95Ms": 39.579,
+      "maxMs": 39.579,
+      "successMedianMs": 5.928,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 734742,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 7,
+        "solverBudget": 1,
+        "gradeRejected": 1,
+        "easy": 0,
+        "normal": 1,
+        "hard": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 4.726,
+      "p95Ms": 13.554,
+      "maxMs": 13.554,
+      "successMedianMs": 4.726,
+      "minFixed": 2,
+      "maxFixed": 4,
+      "maxWork": 252716,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.082,
+      "p95Ms": 2.292,
+      "maxMs": 2.292,
+      "successMedianMs": 1.082,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 36554,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.168,
+      "p95Ms": 2.226,
+      "maxMs": 2.226,
+      "successMedianMs": 1.168,
+      "minFixed": 3,
+      "maxFixed": 5,
+      "maxWork": 36554,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 16.499,
+      "p95Ms": 29.786,
+      "maxMs": 29.786,
+      "successMedianMs": 16.499,
+      "minFixed": 2,
+      "maxFixed": 5,
+      "maxWork": 298203,
+      "diagnostics": {
+        "fixedRejected": 15,
+        "multiple": 56,
+        "solverBudget": 0,
+        "gradeRejected": 39,
+        "easy": 0,
+        "normal": 39,
+        "hard": 5
+      }
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 16.869,
+      "p95Ms": 66.501,
+      "maxMs": 66.501,
+      "successMedianMs": 16.869,
+      "minFixed": 1,
+      "maxFixed": 5,
+      "maxWork": 672035,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 11.923
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 12.815
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 11.732
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 11.552
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 11.452
+        }
+      ],
+      "medianMs": 11.732,
+      "p95Ms": 12.815,
+      "maxMs": 12.815,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 7,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 308.03
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 306.664
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 286.749
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 286.822
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 296.592
+        }
+      ],
+      "medianMs": 296.592,
+      "p95Ms": 308.03,
+      "maxMs": 308.03,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 2124339,
+      "diagnostics": {
+        "fixedRejected": 264,
+        "multiple": 1192,
+        "solverBudget": 0,
+        "gradeRejected": 1736,
+        "easy": 1725,
+        "normal": 11,
+        "hard": 0,
+        "matchingMinSinglesTotal": 63
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 6.499,
+      "p95Ms": 11.067,
+      "maxMs": 11.067,
+      "successMedianMs": 6.499,
+      "minFixed": 6,
+      "maxFixed": 10,
+      "maxWork": 96449,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 19,
+        "solverBudget": 0,
+        "gradeRejected": 19,
+        "easy": 5,
+        "normal": 16,
+        "hard": 3
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.945,
+      "p95Ms": 6.943,
+      "maxMs": 6.943,
+      "successMedianMs": 3.945,
+      "minFixed": 6,
+      "maxFixed": 10,
+      "maxWork": 72110,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 3,
+      "failureReasons": {
+        "budget-exceeded": 1,
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 294.037
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 165.253
+        }
+      ],
+      "medianMs": 165.253,
+      "p95Ms": 294.037,
+      "maxMs": 294.037,
+      "successMedianMs": 105.511,
+      "minFixed": 12,
+      "maxFixed": 12,
+      "maxWork": 4726367,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 4,
+      "failureReasons": {
+        "budget-exceeded": 1
+      },
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1088.852
+        }
+      ],
+      "medianMs": 308.418,
+      "p95Ms": 1088.852,
+      "maxMs": 1088.852,
+      "successMedianMs": 78.877,
+      "minFixed": 12,
+      "maxFixed": 14,
+      "maxWork": 16000000,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 176,
+        "solverBudget": 7,
+        "gradeRejected": 235,
+        "easy": 4,
+        "normal": 44,
+        "hard": 186,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.225,
+      "p95Ms": 1.455,
+      "maxMs": 1.455,
+      "successMedianMs": 1.225,
+      "minFixed": 2,
+      "maxFixed": 8,
+      "maxWork": 7658,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 0.915,
+      "p95Ms": 2.949,
+      "maxMs": 2.949,
+      "successMedianMs": 0.915,
+      "minFixed": 6,
+      "maxFixed": 8,
+      "maxWork": 14434,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 8.672
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 9.395
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 8.917
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 11.401
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 8.89
+        }
+      ],
+      "medianMs": 8.917,
+      "p95Ms": 11.401,
+      "maxMs": 11.401,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.167,
+      "p95Ms": 4.769,
+      "maxMs": 4.769,
+      "successMedianMs": 2.167,
+      "minFixed": 22,
+      "maxFixed": 30,
+      "maxWork": 15630,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 5,
+        "normal": 1,
+        "hard": 0,
+        "matchingMinSinglesTotal": 122
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 30.851,
+      "p95Ms": 96.114,
+      "maxMs": 96.114,
+      "successMedianMs": 30.851,
+      "minFixed": 5,
+      "maxFixed": 8,
+      "maxWork": 667102,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 13,
+        "solverBudget": 0,
+        "gradeRejected": 10,
+        "easy": 0,
+        "normal": 5,
+        "hard": 10
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 156.24,
+      "p95Ms": 196.248,
+      "maxMs": 196.248,
+      "successMedianMs": 156.24,
+      "minFixed": 8,
+      "maxFixed": 12,
+      "maxWork": 3549229,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 28.011,
+      "p95Ms": 113.037,
+      "maxMs": 113.037,
+      "successMedianMs": 28.011,
+      "minFixed": 8,
+      "maxFixed": 10,
+      "maxWork": 1504626,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 36.993,
+      "p95Ms": 99.283,
+      "maxMs": 99.283,
+      "successMedianMs": 36.993,
+      "minFixed": 8,
+      "maxFixed": 10,
+      "maxWork": 1571728,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 21,
+        "solverBudget": 1,
+        "gradeRejected": 25,
+        "easy": 1,
+        "normal": 5,
+        "hard": 19,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.502,
+      "p95Ms": 2.355,
+      "maxMs": 2.355,
+      "successMedianMs": 1.502,
+      "minFixed": 5,
+      "maxFixed": 8,
+      "maxWork": 21186,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.103,
+      "p95Ms": 3.833,
+      "maxMs": 3.833,
+      "successMedianMs": 2.103,
+      "minFixed": 4,
+      "maxFixed": 8,
+      "maxWork": 45238,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 7.612
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 6.641
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 7.069
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 7.111
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 6.638
+        }
+      ],
+      "medianMs": 7.069,
+      "p95Ms": 7.612,
+      "maxMs": 7.612,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 14.836,
+      "p95Ms": 175.129,
+      "maxMs": 175.129,
+      "successMedianMs": 14.836,
+      "minFixed": 20,
+      "maxFixed": 24,
+      "maxWork": 1308636,
+      "diagnostics": {
+        "fixedRejected": 7,
+        "multiple": 167,
+        "solverBudget": 0,
+        "gradeRejected": 200,
+        "easy": 200,
+        "normal": 5,
+        "hard": 0,
+        "matchingMinSinglesTotal": 94
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 53.495,
+      "p95Ms": 73.418,
+      "maxMs": 73.418,
+      "successMedianMs": 53.495,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 1497781,
+      "diagnostics": {
+        "fixedRejected": 3,
+        "multiple": 11,
+        "solverBudget": 3,
+        "gradeRejected": 2,
+        "easy": 0,
+        "normal": 2,
+        "hard": 5
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 30.88,
+      "p95Ms": 118.837,
+      "maxMs": 118.837,
+      "successMedianMs": 30.88,
+      "minFixed": 4,
+      "maxFixed": 7,
+      "maxWork": 2269189,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 8.201,
+      "p95Ms": 12.512,
+      "maxMs": 12.512,
+      "successMedianMs": 8.201,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 185667,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 7.713,
+      "p95Ms": 8.985,
+      "maxMs": 8.985,
+      "successMedianMs": 7.713,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 132457,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5,
+        "matchingMinSinglesTotal": 0
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 41.145,
+      "p95Ms": 218.15,
+      "maxMs": 218.15,
+      "successMedianMs": 41.145,
+      "minFixed": 2,
+      "maxFixed": 5,
+      "maxWork": 1959535,
+      "diagnostics": {
+        "fixedRejected": 33,
+        "multiple": 168,
+        "solverBudget": 0,
+        "gradeRejected": 98,
+        "easy": 0,
+        "normal": 98,
+        "hard": 5
+      }
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 191.379
+        }
+      ],
+      "medianMs": 80.497,
+      "p95Ms": 191.379,
+      "maxMs": 191.379,
+      "successMedianMs": 41.015,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 1954765,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 19.239
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 17.123
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 17.626
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 17.114
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 16.805
+        }
+      ],
+      "medianMs": 17.123,
+      "p95Ms": 19.239,
+      "maxMs": 19.239,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 8,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 514.035
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 508.695
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 497.652
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 532.919
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 506.47
+        }
+      ],
+      "medianMs": 508.695,
+      "p95Ms": 532.919,
+      "maxMs": 532.919,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 4051964,
+      "diagnostics": {
+        "fixedRejected": 80,
+        "multiple": 1556,
+        "solverBudget": 0,
+        "gradeRejected": 1920,
+        "easy": 1885,
+        "normal": 35,
+        "hard": 0,
+        "matchingMinSinglesTotal": 78
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 8.397,
+      "p95Ms": 14.478,
+      "maxMs": 14.478,
+      "successMedianMs": 8.397,
+      "minFixed": 7,
+      "maxFixed": 9,
+      "maxWork": 134874,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 12,
+        "solverBudget": 0,
+        "gradeRejected": 17,
+        "easy": 5,
+        "normal": 13,
+        "hard": 4
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.573,
+      "p95Ms": 7.228,
+      "maxMs": 7.228,
+      "successMedianMs": 2.573,
+      "minFixed": 9,
+      "maxFixed": 11,
+      "maxWork": 71023,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "budget-exceeded": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1332.365
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1266.604
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1035.131
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1260.114
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1109.83
+        }
+      ],
+      "medianMs": 1260.114,
+      "p95Ms": 1332.365,
+      "maxMs": 1332.365,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 20604910,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 2,
+      "failureReasons": {
+        "budget-exceeded": 3
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1459.811
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1470.214
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1515.531
+        }
+      ],
+      "medianMs": 1459.811,
+      "p95Ms": 1515.531,
+      "maxMs": 1515.531,
+      "successMedianMs": 426.055,
+      "minFixed": 13,
+      "maxFixed": 15,
+      "maxWork": 24000000,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 151,
+        "solverBudget": 22,
+        "gradeRejected": 186,
+        "easy": 2,
+        "normal": 11,
+        "hard": 171,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.799,
+      "p95Ms": 2.967,
+      "maxMs": 2.967,
+      "successMedianMs": 1.799,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 13633,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 5,
+        "normal": 1,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.077,
+      "p95Ms": 1.743,
+      "maxMs": 1.743,
+      "successMedianMs": 1.077,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 9635,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 10.359
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 8.992
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 9.224
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 10.163
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 9.461
+        }
+      ],
+      "medianMs": 9.461,
+      "p95Ms": 10.359,
+      "maxMs": 10.359,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.959,
+      "p95Ms": 2.745,
+      "maxMs": 2.745,
+      "successMedianMs": 1.959,
+      "minFixed": 29,
+      "maxFixed": 43,
+      "maxWork": 12510,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 2,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 5,
+        "normal": 0,
+        "hard": 0,
+        "matchingMinSinglesTotal": 181
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 46.314,
+      "p95Ms": 216.596,
+      "maxMs": 216.596,
+      "successMedianMs": 46.314,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 3424316,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 39,
+        "solverBudget": 0,
+        "gradeRejected": 30,
+        "easy": 0,
+        "normal": 5,
+        "hard": 30
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "budget-exceeded": 4
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1108.456
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1074.021
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1143.673
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1089.647
+        }
+      ],
+      "medianMs": 1089.647,
+      "p95Ms": 1143.673,
+      "maxMs": 1143.673,
+      "successMedianMs": 363.853,
+      "minFixed": 10,
+      "maxFixed": 10,
+      "maxWork": 24000000,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 4,
+      "failureReasons": {
+        "budget-exceeded": 1
+      },
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 958.272
+        }
+      ],
+      "medianMs": 186.608,
+      "p95Ms": 958.272,
+      "maxMs": 958.272,
+      "successMedianMs": 124.129,
+      "minFixed": 11,
+      "maxFixed": 13,
+      "maxWork": 15748788,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 376.679,
+      "p95Ms": 770.894,
+      "maxMs": 770.894,
+      "successMedianMs": 376.679,
+      "minFixed": 9,
+      "maxFixed": 13,
+      "maxWork": 12079830,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 45,
+        "solverBudget": 8,
+        "gradeRejected": 70,
+        "easy": 0,
+        "normal": 5,
+        "hard": 66,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.465,
+      "p95Ms": 2.843,
+      "maxMs": 2.843,
+      "successMedianMs": 1.465,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 25247,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.192,
+      "p95Ms": 4.084,
+      "maxMs": 4.084,
+      "successMedianMs": 2.192,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 47061,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 10.685
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 9.937
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 9.863
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 9.645
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 9.3
+        }
+      ],
+      "medianMs": 9.863,
+      "p95Ms": 10.685,
+      "maxMs": 10.685,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 80,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 83.438,
+      "p95Ms": 465.368,
+      "maxMs": 465.368,
+      "successMedianMs": 83.438,
+      "minFixed": 23,
+      "maxFixed": 33,
+      "maxWork": 3415488,
+      "diagnostics": {
+        "fixedRejected": 15,
+        "multiple": 417,
+        "solverBudget": 0,
+        "gradeRejected": 518,
+        "easy": 518,
+        "normal": 5,
+        "hard": 0,
+        "matchingMinSinglesTotal": 121
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 266.156,
+      "p95Ms": 485.245,
+      "maxMs": 485.245,
+      "successMedianMs": 266.156,
+      "minFixed": 4,
+      "maxFixed": 9,
+      "maxWork": 10769766,
+      "diagnostics": {
+        "fixedRejected": 1,
+        "multiple": 12,
+        "solverBudget": 12,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 443.766,
+      "p95Ms": 670.785,
+      "maxMs": 670.785,
+      "successMedianMs": 443.766,
+      "minFixed": 6,
+      "maxFixed": 8,
+      "maxWork": 14616636,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 15.441,
+      "p95Ms": 109.795,
+      "maxMs": 109.795,
+      "successMedianMs": 15.441,
+      "minFixed": 5,
+      "maxFixed": 9,
+      "maxWork": 1533245,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 13.955,
+      "p95Ms": 93.343,
+      "maxMs": 93.343,
+      "successMedianMs": 13.955,
+      "minFixed": 5,
+      "maxFixed": 9,
+      "maxWork": 1539592,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 1,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5,
+        "matchingMinSinglesTotal": 1
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 325.475,
+      "p95Ms": 659.98,
+      "maxMs": 659.98,
+      "successMedianMs": 325.475,
+      "minFixed": 3,
+      "maxFixed": 8,
+      "maxWork": 6832837,
+      "diagnostics": {
+        "fixedRejected": 56,
+        "multiple": 655,
+        "solverBudget": 0,
+        "gradeRejected": 399,
+        "easy": 0,
+        "normal": 399,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 3,
+      "failureReasons": {
+        "difficulty-unmet": 2
+      },
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 277.916
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 323.138
+        }
+      ],
+      "medianMs": 195.394,
+      "p95Ms": 323.138,
+      "maxMs": 323.138,
+      "successMedianMs": 42.264,
+      "minFixed": 4,
+      "maxFixed": 6,
+      "maxWork": 3427026,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "operator-constraints": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "operator-constraints",
+          "ms": 24.673
+        },
+        {
+          "seed": 1,
+          "reason": "operator-constraints",
+          "ms": 23.269
+        },
+        {
+          "seed": 2,
+          "reason": "operator-constraints",
+          "ms": 24.454
+        },
+        {
+          "seed": 3,
+          "reason": "operator-constraints",
+          "ms": 25.034
+        },
+        {
+          "seed": 4,
+          "reason": "operator-constraints",
+          "ms": 26.708
+        }
+      ],
+      "medianMs": 24.673,
+      "p95Ms": 26.708,
+      "maxMs": 26.708,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 200,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 0,
+      "failureReasons": {
+        "difficulty-unmet": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 702.737
+        },
+        {
+          "seed": 1,
+          "reason": "difficulty-unmet",
+          "ms": 723.146
+        },
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 703.555
+        },
+        {
+          "seed": 3,
+          "reason": "difficulty-unmet",
+          "ms": 680.865
+        },
+        {
+          "seed": 4,
+          "reason": "difficulty-unmet",
+          "ms": 720.784
+        }
+      ],
+      "medianMs": 703.555,
+      "p95Ms": 723.146,
+      "maxMs": 723.146,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 5344586,
+      "diagnostics": {
+        "fixedRejected": 79,
+        "multiple": 1564,
+        "solverBudget": 0,
+        "gradeRejected": 1921,
+        "easy": 1905,
+        "normal": 16,
+        "hard": 0,
+        "matchingMinSinglesTotal": 113
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 28.246,
+      "p95Ms": 269.304,
+      "maxMs": 269.304,
+      "successMedianMs": 28.246,
+      "minFixed": 7,
+      "maxFixed": 19,
+      "maxWork": 3439301,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 84,
+        "solverBudget": 0,
+        "gradeRejected": 113,
+        "easy": 5,
+        "normal": 48,
+        "hard": 65
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "difficulty-unmet",
+          "ms": 152.001
+        }
+      ],
+      "medianMs": 20.169,
+      "p95Ms": 152.001,
+      "maxMs": 152.001,
+      "successMedianMs": 18.803,
+      "minFixed": 7,
+      "maxFixed": 15,
+      "maxWork": 1980355,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "budget-exceeded": 4
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1057.551
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1093.161
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1084.74
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1070.485
+        }
+      ],
+      "medianMs": 1070.485,
+      "p95Ms": 1093.161,
+      "maxMs": 1093.161,
+      "successMedianMs": 414.053,
+      "minFixed": 11,
+      "maxFixed": 11,
+      "maxWork": 24000000,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 142.015,
+      "p95Ms": 647.582,
+      "maxMs": 647.582,
+      "successMedianMs": 142.015,
+      "minFixed": 10,
+      "maxFixed": 12,
+      "maxWork": 11468946,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 35,
+        "solverBudget": 4,
+        "gradeRejected": 30,
+        "easy": 0,
+        "normal": 5,
+        "hard": 30
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 305.753,
+      "p95Ms": 776.374,
+      "maxMs": 776.374,
+      "successMedianMs": 305.753,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 17114555,
+      "diagnostics": {
+        "fixedRejected": 3,
+        "multiple": 11,
+        "solverBudget": 20,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 479.327,
+      "p95Ms": 793.823,
+      "maxMs": 793.823,
+      "successMedianMs": 479.327,
+      "minFixed": 6,
+      "maxFixed": 8,
+      "maxWork": 16879334,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.952,
+      "p95Ms": 6.991,
+      "maxMs": 6.991,
+      "successMedianMs": 1.952,
+      "minFixed": 5,
+      "maxFixed": 11,
+      "maxWork": 47592,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.999,
+      "p95Ms": 2.993,
+      "maxMs": 2.993,
+      "successMedianMs": 1.999,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 18518,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 2,
+        "easy": 5,
+        "normal": 2,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.053,
+      "p95Ms": 8.238,
+      "maxMs": 8.238,
+      "successMedianMs": 2.053,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 96320,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 0,
+        "normal": 5,
+        "hard": 1
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 31.64,
+      "p95Ms": 98.114,
+      "maxMs": 98.114,
+      "successMedianMs": 31.64,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 1449428,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 28.31,
+      "p95Ms": 55.082,
+      "maxMs": 55.082,
+      "successMedianMs": 28.31,
+      "minFixed": 4,
+      "maxFixed": 8,
+      "maxWork": 706419,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 7.699,
+      "p95Ms": 26.132,
+      "maxMs": 26.132,
+      "successMedianMs": 7.699,
+      "minFixed": 5,
+      "maxFixed": 9,
+      "maxWork": 321502,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 9,
+        "solverBudget": 0,
+        "gradeRejected": 2,
+        "easy": 0,
+        "normal": 2,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.58,
+      "p95Ms": 7.739,
+      "maxMs": 7.739,
+      "successMedianMs": 2.58,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 72622,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 5,
+        "normal": 4,
+        "hard": 1
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.247,
+      "p95Ms": 10.431,
+      "maxMs": 10.431,
+      "successMedianMs": 2.247,
+      "minFixed": 7,
+      "maxFixed": 9,
+      "maxWork": 100285,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.608,
+      "p95Ms": 4.4,
+      "maxMs": 4.4,
+      "successMedianMs": 2.608,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 49302,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.602,
+      "p95Ms": 2.997,
+      "maxMs": 2.997,
+      "successMedianMs": 1.602,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 28319,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 35.013,
+      "p95Ms": 169.181,
+      "maxMs": 169.181,
+      "successMedianMs": 35.013,
+      "minFixed": 4,
+      "maxFixed": 7,
+      "maxWork": 1756578,
+      "diagnostics": {
+        "fixedRejected": 6,
+        "multiple": 83,
+        "solverBudget": 0,
+        "gradeRejected": 50,
+        "easy": 0,
+        "normal": 50,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 23.018,
+      "p95Ms": 46.696,
+      "maxMs": 46.696,
+      "successMedianMs": 23.018,
+      "minFixed": 4,
+      "maxFixed": 8,
+      "maxWork": 527595,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 4.184,
+      "p95Ms": 10.755,
+      "maxMs": 10.755,
+      "successMedianMs": 4.184,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 103158,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.113,
+      "p95Ms": 19.032,
+      "maxMs": 19.032,
+      "successMedianMs": 2.113,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 164641,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 8,
+        "solverBudget": 0,
+        "gradeRejected": 12,
+        "easy": 5,
+        "normal": 12,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.373,
+      "p95Ms": 7.852,
+      "maxMs": 7.852,
+      "successMedianMs": 2.373,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 91471,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 0,
+        "normal": 5,
+        "hard": 1
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 68.591,
+      "p95Ms": 94.065,
+      "maxMs": 94.065,
+      "successMedianMs": 68.591,
+      "minFixed": 7,
+      "maxFixed": 12,
+      "maxWork": 1423820,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 10.732,
+      "p95Ms": 56.63,
+      "maxMs": 56.63,
+      "successMedianMs": 10.732,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 1135969,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "*"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 7.172,
+      "p95Ms": 45.942,
+      "maxMs": 45.942,
+      "successMedianMs": 7.172,
+      "minFixed": 4,
+      "maxFixed": 9,
+      "maxWork": 633887,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 10,
+        "solverBudget": 0,
+        "gradeRejected": 3,
+        "easy": 0,
+        "normal": 3,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 7.322,
+      "p95Ms": 8.976,
+      "maxMs": 8.976,
+      "successMedianMs": 7.322,
+      "minFixed": 9,
+      "maxFixed": 11,
+      "maxWork": 79802,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 11,
+        "solverBudget": 0,
+        "gradeRejected": 13,
+        "easy": 5,
+        "normal": 13,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 3.151,
+      "p95Ms": 7.059,
+      "maxMs": 7.059,
+      "successMedianMs": 3.151,
+      "minFixed": 9,
+      "maxFixed": 11,
+      "maxWork": 68475,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 1,
+      "failureReasons": {
+        "budget-exceeded": 4
+      },
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1132.252
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1146.867
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1111.239
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1152.298
+        }
+      ],
+      "medianMs": 1132.252,
+      "p95Ms": 1152.298,
+      "maxMs": 1152.298,
+      "successMedianMs": 833.349,
+      "minFixed": 8,
+      "maxFixed": 8,
+      "maxWork": 24000000,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 36.195,
+      "p95Ms": 179.215,
+      "maxMs": 179.215,
+      "successMedianMs": 36.195,
+      "minFixed": 9,
+      "maxFixed": 12,
+      "maxWork": 2364212,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 28,
+        "solverBudget": 0,
+        "gradeRejected": 24,
+        "easy": 0,
+        "normal": 5,
+        "hard": 24
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 45.642,
+      "p95Ms": 317.817,
+      "maxMs": 317.817,
+      "successMedianMs": 45.642,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 5993270,
+      "diagnostics": {
+        "fixedRejected": 2,
+        "multiple": 7,
+        "solverBudget": 4,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 263.745,
+      "p95Ms": 337.261,
+      "maxMs": 337.261,
+      "successMedianMs": 263.745,
+      "minFixed": 4,
+      "maxFixed": 7,
+      "maxWork": 7419629,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 3,
+      "failureReasons": {
+        "budget-exceeded": 2
+      },
+      "failures": [
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 446.526
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 404.061
+        }
+      ],
+      "medianMs": 110.212,
+      "p95Ms": 446.526,
+      "maxMs": 446.526,
+      "successMedianMs": 58.628,
+      "minFixed": 9,
+      "maxFixed": 13,
+      "maxWork": 6759664,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 418.478,
+      "p95Ms": 452.481,
+      "maxMs": 452.481,
+      "successMedianMs": 418.478,
+      "minFixed": 7,
+      "maxFixed": 15,
+      "maxWork": 6710555,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 100,
+        "solverBudget": 5,
+        "gradeRejected": 149,
+        "easy": 5,
+        "normal": 41,
+        "hard": 103,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 43.559,
+      "p95Ms": 172.693,
+      "maxMs": 172.693,
+      "successMedianMs": 43.559,
+      "minFixed": 9,
+      "maxFixed": 13,
+      "maxWork": 2571807,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 15,
+        "solverBudget": 1,
+        "gradeRejected": 22,
+        "easy": 0,
+        "normal": 5,
+        "hard": 17,
+        "matchingMinSinglesTotal": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 33.235,
+      "p95Ms": 101.456,
+      "maxMs": 101.456,
+      "successMedianMs": 33.235,
+      "minFixed": 9,
+      "maxFixed": 11,
+      "maxWork": 1490428,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 6.972,
+      "p95Ms": 14.695,
+      "maxMs": 14.695,
+      "successMedianMs": 6.972,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 229880,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 6.59,
+      "p95Ms": 14.616,
+      "maxMs": 14.616,
+      "successMedianMs": 6.59,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 229880,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 0,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 16.701,
+      "p95Ms": 36.385,
+      "maxMs": 36.385,
+      "successMedianMs": 16.701,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 424271,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 19,
+        "solverBudget": 0,
+        "gradeRejected": 27,
+        "easy": 5,
+        "normal": 15,
+        "hard": 12
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 14.48,
+      "p95Ms": 92.99,
+      "maxMs": 92.99,
+      "successMedianMs": 14.48,
+      "minFixed": 7,
+      "maxFixed": 15,
+      "maxWork": 1219817,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 0,
+      "failureReasons": {
+        "budget-exceeded": 5
+      },
+      "failures": [
+        {
+          "seed": 0,
+          "reason": "budget-exceeded",
+          "ms": 1122.471
+        },
+        {
+          "seed": 1,
+          "reason": "budget-exceeded",
+          "ms": 1165.053
+        },
+        {
+          "seed": 2,
+          "reason": "budget-exceeded",
+          "ms": 1169.87
+        },
+        {
+          "seed": 3,
+          "reason": "budget-exceeded",
+          "ms": 1153.44
+        },
+        {
+          "seed": 4,
+          "reason": "budget-exceeded",
+          "ms": 1239.212
+        }
+      ],
+      "medianMs": 1165.053,
+      "p95Ms": 1239.212,
+      "maxMs": 1239.212,
+      "successMedianMs": null,
+      "minFixed": null,
+      "maxFixed": null,
+      "maxWork": 24000000,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 81.468,
+      "p95Ms": 284.919,
+      "maxMs": 284.919,
+      "successMedianMs": 81.468,
+      "minFixed": 10,
+      "maxFixed": 12,
+      "maxWork": 4868077,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 19,
+        "solverBudget": 0,
+        "gradeRejected": 18,
+        "easy": 0,
+        "normal": 5,
+        "hard": 18
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 233.38,
+      "p95Ms": 510.466,
+      "maxMs": 510.466,
+      "successMedianMs": 233.38,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 11328324,
+      "diagnostics": {
+        "fixedRejected": 4,
+        "multiple": 12,
+        "solverBudget": 12,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 0,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "-",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 391.189,
+      "p95Ms": 926.414,
+      "maxMs": 926.414,
+      "successMedianMs": 391.189,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 18404265,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.042,
+      "p95Ms": 1.729,
+      "maxMs": 1.729,
+      "successMedianMs": 1.042,
+      "minFixed": 3,
+      "maxFixed": 9,
+      "maxWork": 10850,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.476,
+      "p95Ms": 2.105,
+      "maxMs": 2.105,
+      "successMedianMs": 1.476,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 14648,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 1,
+        "solverBudget": 0,
+        "gradeRejected": 1,
+        "easy": 5,
+        "normal": 1,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.436,
+      "p95Ms": 3.168,
+      "maxMs": 3.168,
+      "successMedianMs": 1.436,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 25776,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.994,
+      "p95Ms": 4.383,
+      "maxMs": 4.383,
+      "successMedianMs": 1.994,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 47534,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 4,
+      "failureReasons": {
+        "difficulty-unmet": 1
+      },
+      "failures": [
+        {
+          "seed": 2,
+          "reason": "difficulty-unmet",
+          "ms": 317.785
+        }
+      ],
+      "medianMs": 72.694,
+      "p95Ms": 317.785,
+      "maxMs": 317.785,
+      "successMedianMs": 42.061,
+      "minFixed": 3,
+      "maxFixed": 6,
+      "maxWork": 3520589,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 223.613,
+      "p95Ms": 642.521,
+      "maxMs": 642.521,
+      "successMedianMs": 223.613,
+      "minFixed": 2,
+      "maxFixed": 8,
+      "maxWork": 6881192,
+      "diagnostics": {
+        "fixedRejected": 46,
+        "multiple": 566,
+        "solverBudget": 0,
+        "gradeRejected": 348,
+        "easy": 0,
+        "normal": 348,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.164,
+      "p95Ms": 4.787,
+      "maxMs": 4.787,
+      "successMedianMs": 2.164,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 35534,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 3,
+        "easy": 5,
+        "normal": 3,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.55,
+      "p95Ms": 5.528,
+      "maxMs": 5.528,
+      "successMedianMs": 1.55,
+      "minFixed": 5,
+      "maxFixed": 11,
+      "maxWork": 47208,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 37.467,
+      "p95Ms": 109.247,
+      "maxMs": 109.247,
+      "successMedianMs": 37.467,
+      "minFixed": 3,
+      "maxFixed": 11,
+      "maxWork": 1919361,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.867,
+      "p95Ms": 4.784,
+      "maxMs": 4.784,
+      "successMedianMs": 1.867,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 54034,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 23.819,
+      "p95Ms": 51.692,
+      "maxMs": 51.692,
+      "successMedianMs": 23.819,
+      "minFixed": 4,
+      "maxFixed": 9,
+      "maxWork": 812703,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 16,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 0,
+        "normal": 5,
+        "hard": 5
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "+",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 28.428,
+      "p95Ms": 56.647,
+      "maxMs": 56.647,
+      "successMedianMs": 28.428,
+      "minFixed": 4,
+      "maxFixed": 8,
+      "maxWork": 1004793,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.231,
+      "p95Ms": 5.943,
+      "maxMs": 5.943,
+      "successMedianMs": 2.231,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 63952,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "easy",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 2.405,
+      "p95Ms": 7.286,
+      "maxMs": 7.286,
+      "successMedianMs": 2.405,
+      "minFixed": 7,
+      "maxFixed": 11,
+      "maxWork": 67799,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 4,
+        "solverBudget": 0,
+        "gradeRejected": 5,
+        "easy": 5,
+        "normal": 4,
+        "hard": 1
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.842,
+      "p95Ms": 2.874,
+      "maxMs": 2.874,
+      "successMedianMs": 1.842,
+      "minFixed": 5,
+      "maxFixed": 12,
+      "maxWork": 28991,
+      "diagnostics": {
+        "fixedRejected": 0,
+        "multiple": 3,
+        "solverBudget": 0,
+        "gradeRejected": 0,
+        "easy": 0,
+        "normal": 5,
+        "hard": 0
+      }
+    },
+    {
+      "size": 9,
+      "difficulty": "normal",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 1.975,
+      "p95Ms": 4.349,
+      "maxMs": 4.349,
+      "successMedianMs": 1.975,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 49348,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v2",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 24.744,
+      "p95Ms": 45.7,
+      "maxMs": 45.7,
+      "successMedianMs": 24.744,
+      "minFixed": 3,
+      "maxFixed": 7,
+      "maxWork": 534274,
+      "diagnostics": {}
+    },
+    {
+      "size": 9,
+      "difficulty": "hard",
+      "operators": [
+        "-",
+        "*",
+        "/"
+      ],
+      "trials": 5,
+      "kind": "restricted",
+      "version": "calcudoku-v3",
+      "successes": 5,
+      "failureReasons": {},
+      "failures": [],
+      "medianMs": 34.964,
+      "p95Ms": 144.392,
+      "maxMs": 144.392,
+      "successMedianMs": 34.964,
+      "minFixed": 5,
+      "maxFixed": 7,
+      "maxWork": 1589973,
+      "diagnostics": {
+        "fixedRejected": 5,
+        "multiple": 106,
+        "solverBudget": 0,
+        "gradeRejected": 66,
+        "easy": 0,
+        "normal": 66,
+        "hard": 5
+      }
+    }
+  ]
+}
